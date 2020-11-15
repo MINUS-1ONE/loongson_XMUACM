@@ -1,0 +1,8 @@
+prefix=/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner
+
+Name: app_way_planner
+Description: Description of app_way_planner
+Version: 1.12.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lapp_way_planner
+Requires: 

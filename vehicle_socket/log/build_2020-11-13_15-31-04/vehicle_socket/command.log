@@ -1,0 +1,2 @@
+Invoking command in '/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket -- -j8 -l8
+Invoked command in '/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket' returned '2': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket -- -j8 -l8

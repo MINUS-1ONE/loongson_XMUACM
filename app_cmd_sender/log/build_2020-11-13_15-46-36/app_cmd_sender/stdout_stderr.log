@@ -1,0 +1,8 @@
+CMake Error: The current CMakeCache.txt directory /home/nuc/Desktop/app_cmd_sender/build/app_cmd_sender/CMakeCache.txt is different than the directory /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+/bin/sh: 1: cd: can't cd to /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender
+CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make:70: recipe for target 'CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend' failed
+make[2]: *** [CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend] Error 2
+CMakeFiles/Makefile2:2211: recipe for target 'CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all' failed
+make[1]: *** [CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

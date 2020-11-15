@@ -1,0 +1,141 @@
+[0.034s] Invoking command in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender -- -j8 -l8
+[0.137s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.140s] [  0%] Built target autoware_can_msgs_generate_messages_py
+[0.146s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.152s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[0.152s] [  0%] Built target autoware_can_msgs_generate_messages_eus
+[0.159s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[0.169s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.186s] [  0%] Built target autoware_msgs_generate_messages_py
+[0.193s] [  0%] Built target sensor_msgs_generate_messages_eus
+[0.203s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.213s] [  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[0.216s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[0.226s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[0.226s] [  0%] Built target roscpp_generate_messages_cpp
+[0.231s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.246s] [  0%] Built target roscpp_generate_messages_lisp
+[0.267s] [  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[0.269s] [  0%] Built target roscpp_generate_messages_py
+[0.277s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.278s] [  0%] Built target sensor_msgs_generate_messages_py
+[0.288s] [  0%] Built target tablet_socket_msgs_generate_messages_py
+[0.292s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[0.311s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[0.323s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[0.325s] [  0%] Built target pcl_msgs_generate_messages_eus
+[0.340s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.344s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[0.348s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.364s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.367s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[0.374s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[0.405s] [  0%] Built target roscpp_generate_messages_eus
+[0.413s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.413s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.420s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.425s] [  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[0.427s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.429s] [  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[0.446s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.479s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.484s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.485s] [  0%] Built target std_msgs_generate_messages_eus
+[0.489s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[0.491s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[0.499s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.501s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[0.509s] [  0%] Built target std_msgs_generate_messages_py
+[0.537s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.553s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[0.554s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[0.567s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.570s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[0.572s] [  0%] Built target pcl_msgs_generate_messages_py
+[0.574s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[0.590s] [  0%] Built target autoware_can_msgs_generate_messages_lisp
+[0.594s] [  0%] Built target autoware_can_msgs_generate_messages_cpp
+[0.609s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[0.614s] [  0%] Built target tablet_socket_msgs_generate_messages_eus
+[0.619s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[0.624s] [  0%] Built target autoware_msgs_generate_messages_eus
+[0.639s] [35m[1mScanning dependencies of target app_cmd_sender[0m
+[0.666s] [ 50%] [32mBuilding CXX object CMakeFiles/app_cmd_sender.dir/nodes/app_cmd_sender.cpp.o[0m
+[1.791s] [100%] [32m[1mLinking CXX executable devel/lib/app_cmd_sender/app_cmd_sender[0m
+[1.909s] [100%] Built target app_cmd_sender
+[1.923s] Invoked command in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender' returned '0': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender -- -j8 -l8
+[2.047s] Invoking command in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender --target tests -- -j8 -l8
+[2.127s] [35m[1mScanning dependencies of target tests[0m
+[2.141s] Built target tests
+[2.156s] Invoked command in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender' returned '0': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender --target tests -- -j8 -l8
+[2.292s] Invoking command in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender --target install -- -j8 -l8
+[2.377s] [  0%] Built target geometry_msgs_generate_messages_py
+[2.383s] [  0%] Built target autoware_can_msgs_generate_messages_py
+[2.384s] [  0%] Built target autoware_msgs_generate_messages_py
+[2.389s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[2.395s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[2.398s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[2.399s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[2.411s] [  0%] Built target autoware_can_msgs_generate_messages_eus
+[2.433s] [  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[2.443s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[2.445s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[2.453s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[2.456s] [  0%] Built target sensor_msgs_generate_messages_eus
+[2.459s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[2.472s] [  0%] Built target roscpp_generate_messages_lisp
+[2.474s] [  0%] Built target roscpp_generate_messages_cpp
+[2.489s] [  0%] Built target roscpp_generate_messages_py
+[2.492s] [  0%] Built target sensor_msgs_generate_messages_py
+[2.494s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[2.506s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[2.515s] [  0%] Built target tablet_socket_msgs_generate_messages_py
+[2.532s] [  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[2.539s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[2.542s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[2.547s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[2.554s] [  0%] Built target pcl_msgs_generate_messages_eus
+[2.557s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[2.565s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[2.573s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[2.588s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[2.597s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[2.616s] [  0%] Built target std_msgs_generate_messages_lisp
+[2.617s] [  0%] Built target roscpp_generate_messages_nodejs
+[2.621s] [  0%] Built target roscpp_generate_messages_eus
+[2.627s] [  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[2.628s] [  0%] Built target geometry_msgs_generate_messages_eus
+[2.645s] [  0%] Built target std_msgs_generate_messages_nodejs
+[2.664s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[2.670s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[2.685s] [  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[2.685s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[2.687s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[2.695s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[2.704s] [  0%] Built target std_msgs_generate_messages_eus
+[2.728s] [  0%] Built target std_msgs_generate_messages_py
+[2.729s] [  0%] Built target actionlib_msgs_generate_messages_py
+[2.737s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[2.750s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[2.756s] [  0%] Built target pcl_msgs_generate_messages_py
+[2.758s] [  0%] Built target std_msgs_generate_messages_cpp
+[2.763s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[2.767s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[2.789s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[2.798s] [  0%] Built target autoware_can_msgs_generate_messages_lisp
+[2.800s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[2.808s] [  0%] Built target autoware_can_msgs_generate_messages_cpp
+[2.812s] [  0%] Built target tablet_socket_msgs_generate_messages_eus
+[2.814s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[2.815s] [  0%] Built target autoware_msgs_generate_messages_eus
+[2.817s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[2.856s] [100%] Built target app_cmd_sender
+[2.888s] [36mInstall the project...[0m
+[2.900s] -- Install configuration: ""
+[2.900s] -- Installing: /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/lib/pkgconfig/app_cmd_sender.pc
+[2.900s] -- Installing: /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/cmake/app_cmd_senderConfig.cmake
+[2.900s] -- Installing: /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/cmake/app_cmd_senderConfig-version.cmake
+[2.900s] -- Installing: /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/package.xml
+[2.900s] -- Installing: /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/lib/app_cmd_sender/app_cmd_sender
+[2.900s] -- Set runtime path of "/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/lib/app_cmd_sender/app_cmd_sender" to ""
+[2.904s] Invoked command in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender' returned '0': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender --target install -- -j8 -l8

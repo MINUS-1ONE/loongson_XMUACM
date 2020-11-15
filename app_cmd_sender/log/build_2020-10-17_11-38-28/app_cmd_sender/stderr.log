@@ -1,0 +1,17 @@
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:39:60:[m[K [01;31m[Kerror: [m[K‘[01m[KvehicleCmdCallback[m[K’ was not declared in this scope
+     ros::Subscriber sub1 = nh.subscribe("/vehicle_cmd", 1, [01;31m[KvehicleCmdCallback[m[K);
+                                                            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:40:65:[m[K [01;31m[Kerror: [m[K‘[01m[KcallbackFromCurrentVelocity[m[K’ was not declared in this scope
+     ros::Subscriber sub2 = nh.subscribe("/current_velocity", 1, [01;31m[KcallbackFromCurrentVelocity[m[K);
+                                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:42:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_data[m[K’ was not declared in this scope
+     [01;31m[Kcommand_data[m[K.reset();
+     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:42:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kdrand48_data[m[K’
+     [01;36m[Kcommand_data[m[K.reset();
+     [01;36m[K^~~~~~~~~~~~[m[K
+     [32m[Kdrand48_data[m[K
+make[2]: *** [CMakeFiles/app_cmd_sender.dir/nodes/app_cmd_sender.cpp.o] Error 1
+make[1]: *** [CMakeFiles/app_cmd_sender.dir/all] Error 2
+make: *** [all] Error 2

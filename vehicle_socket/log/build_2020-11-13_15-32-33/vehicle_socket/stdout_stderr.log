@@ -1,0 +1,81 @@
+[  0%] Built target tablet_socket_msgs_generate_messages_py
+[  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_py
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[  0%] Built target autoware_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target autoware_can_msgs_generate_messages_py
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target autoware_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target autoware_can_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[  0%] Built target autoware_can_msgs_generate_messages_cpp
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[  0%] Built target autoware_can_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target autoware_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target autoware_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target tablet_socket_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target vehicle_sender[0m
+[ 50%] Built target vehicle_receiver
+[ 75%] [32mBuilding CXX object CMakeFiles/vehicle_sender.dir/nodes/vehicle_sender/vehicle_sender.cpp.o[0m
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:333:0:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "ROS_WARN"
+ }
+ 
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:[m[K In function ‘[01m[Kvoid callbackAppCmd(const ConstPtr&)[m[K’:
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:178:5:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_WARN[m[K’ was not declared in this scope
+     [01;31m[KROS_WARN[m[K(("I RECEIVE CMD!");
+     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:178:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:[m[K At global scope:
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:90:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid vehicleCmdCallback(const VehicleCmd&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ static void [01;35m[KvehicleCmdCallback[m[K(const autoware_msgs::VehicleCmd &msg)
+             [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+CMakeFiles/vehicle_sender.dir/build.make:62: recipe for target 'CMakeFiles/vehicle_sender.dir/nodes/vehicle_sender/vehicle_sender.cpp.o' failed
+make[2]: *** [CMakeFiles/vehicle_sender.dir/nodes/vehicle_sender/vehicle_sender.cpp.o] Error 1
+CMakeFiles/Makefile2:190: recipe for target 'CMakeFiles/vehicle_sender.dir/all' failed
+make[1]: *** [CMakeFiles/vehicle_sender.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

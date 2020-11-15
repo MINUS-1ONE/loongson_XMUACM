@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="app_cmd_sender" type="app_cmd_sender" name="app_cmd_sender" />
+</launch>

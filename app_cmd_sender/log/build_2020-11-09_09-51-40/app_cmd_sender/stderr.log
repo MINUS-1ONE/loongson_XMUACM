@@ -1,0 +1,5 @@
+/usr/bin/ld: cannot find -lopencv
+collect2: error: ld returned 1 exit status
+make[2]: *** [devel/lib/app_cmd_sender/app_cmd_sender] Error 1
+make[1]: *** [CMakeFiles/app_cmd_sender.dir/all] Error 2
+make: *** [all] Error 2

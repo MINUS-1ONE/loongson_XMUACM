@@ -1,0 +1,190 @@
+[0.022s] Invoking command in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender': /usr/bin/cmake /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender
+[0.096s] -- The C compiler identification is GNU 7.5.0
+[0.163s] -- The CXX compiler identification is GNU 7.5.0
+[0.171s] -- Check for working C compiler: /usr/bin/cc
+[0.248s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.248s] -- Detecting C compiler ABI info
+[0.327s] -- Detecting C compiler ABI info - done
+[0.336s] -- Detecting C compile features
+[0.568s] -- Detecting C compile features - done
+[0.571s] -- Check for working CXX compiler: /usr/bin/c++
+[0.669s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.670s] -- Detecting CXX compiler ABI info
+[0.763s] -- Detecting CXX compiler ABI info - done
+[0.771s] -- Detecting CXX compile features
+[1.167s] -- Detecting CXX compile features - done
+[1.179s] -- CUDA compilation status: .
+[1.194s] -- Using CATKIN_DEVEL_PREFIX: /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender/devel
+[1.194s] -- Using CMAKE_PREFIX_PATH: /home/nuc/autoware.ai/install/ymc;/home/nuc/autoware.ai/install/xsens_driver;/home/nuc/autoware.ai/install/wf_simulator;/home/nuc/autoware.ai/install/lattice_planner;/home/nuc/autoware.ai/install/waypoint_planner;/home/nuc/autoware.ai/install/waypoint_maker;/home/nuc/autoware.ai/install/way_planner;/home/nuc/autoware.ai/install/vlg22c_cam;/home/nuc/autoware.ai/install/vision_ssd_detect;/home/nuc/autoware.ai/install/vision_segment_enet_detect;/home/nuc/autoware.ai/install/vision_lane_detect;/home/nuc/autoware.ai/install/vision_darknet_detect;/home/nuc/autoware.ai/install/vision_beyond_track;/home/nuc/autoware.ai/install/vel_pose_diff_checker;/home/nuc/autoware.ai/install/vehicle_socket;/home/nuc/autoware.ai/install/vehicle_sim_model;/home/nuc/autoware.ai/install/vehicle_model;/home/nuc/autoware.ai/install/vehicle_gazebo_simulation_launcher;/home/nuc/autoware.ai/install/vehicle_gazebo_simulation_interface;/home/nuc/autoware.ai/install/vehicle_engage_panel;/home/nuc/autoware.ai/install/vehicle_description;/home/nuc/autoware.ai/install/trafficlight_recognizer;/home/nuc/autoware.ai/install/op_utilities;/home/nuc/autoware.ai/install/op_simulation_package;/home/nuc/autoware.ai/install/op_local_planner;/home/nuc/autoware.ai/install/op_global_planner;/home/nuc/autoware.ai/install/lidar_kf_contour_track;/home/nuc/autoware.ai/install/op_ros_helpers;/home/nuc/autoware.ai/install/ff_waypoint_follower;/home/nuc/autoware.ai/install/dp_planner;/home/nuc/autoware.ai/install/op_simu;/home/nuc/autoware.ai/install/op_planner;/home/nuc/autoware.ai/install/op_utility;/home/nuc/autoware.ai/install/lidar_euclidean_cluster_detect;/home/nuc/autoware.ai/install/vector_map_server;/home/nuc/autoware.ai/install/road_occupancy_processor;/home/nuc/autoware.ai/install/costmap_generator;/home/nuc/autoware.ai/install/object_map;/home/nuc/autoware.ai/install/naive_motion_predict;/home/nuc/autoware.ai/install/lanelet_aisan_converter;/home/nuc/autoware.ai/install/map_file;/home/nuc/autoware.ai/install/libvectormap;/home/nuc/autoware.ai/install/lane_planner;/home/nuc/autoware.ai/install/imm_ukf_pda_track;/home/nuc/autoware.ai/install/decision_maker;/home/nuc/autoware.ai/install/vector_map;/home/nuc/autoware.ai/install/vector_map_msgs;/home/nuc/autoware.ai/install/vectacam;/home/nuc/autoware.ai/install/udon_socket;/home/nuc/autoware.ai/install/twist_generator;/home/nuc/autoware.ai/install/twist_gate;/home/nuc/autoware.ai/install/twist_filter;/home/nuc/autoware.ai/install/twist2odom;/home/nuc/autoware.ai/install/tablet_socket;/home/nuc/autoware.ai/install/runtime_manager;/home/nuc/autoware.ai/install/mqtt_socket;/home/nuc/autoware.ai/install/tablet_socket_msgs;/home/nuc/autoware.ai/install/system_monitor;/home/nuc/autoware.ai/install/state_machine_lib;/home/nuc/autoware.ai/install/sound_player;/home/nuc/autoware.ai/install/sick_lms5xx;/home/nuc/autoware.ai/install/sick_ldmrs_tools;/home/nuc/autoware.ai/install/sick_ldmrs_driver;/home/nuc/autoware.ai/install/sick_ldmrs_msgs;/home/nuc/autoware.ai/install/sick_ldmrs_description;/home/nuc/autoware.ai/install/sensor_imu;/home/nuc/autoware.ai/install/points2image;/home/nuc/autoware.ai/install/rosinterface;/home/nuc/autoware.ai/install/rosbag_controller;/home/nuc/autoware.ai/install/pure_pursuit;/home/nuc/autoware.ai/install/points_preprocessor;/home/nuc/autoware.ai/install/mpc_follower;/home/nuc/autoware.ai/install/lidar_localizer;/home/nuc/autoware.ai/install/emergency_handler;/home/nuc/autoware.ai/install/autoware_health_checker;/home/nuc/autoware.ai/install/as;/home/nuc/autoware.ai/install/ros_observer;/home/nuc/autoware.ai/install/roi_object_filter;/home/nuc/autoware.ai/install/range_vision_fusion;/home/nuc/autoware.ai/install/pos_db;/home/nuc/autoware.ai/install/points_downsampler;/home/nuc/autoware.ai/install/pixel_cloud_fusion;/home/nuc/autoware.ai/install/pcl_omp_registration;/home/nuc/autoware.ai/install/pc2_downsampler;/home/nuc/autoware.ai/install/oculus_socket;/home/nuc/autoware.ai/install/obj_db;/home/nuc/autoware.ai/install/nmea_navsat;/home/nuc/autoware.ai/install/ndt_tku;/home/nuc/autoware.ai/install/ndt_cpu;/home/nuc/autoware.ai/install/multi_lidar_calibrator;/home/nuc/autoware.ai/install/microstrain_driver;/home/nuc/autoware.ai/install/memsic_imu;/home/nuc/autoware.ai/install/marker_downsampler;/home/nuc/autoware.ai/install/map_tools;/home/nuc/autoware.ai/install/map_tf_generator;/home/nuc/autoware.ai/install/log_tools;/home/nuc/autoware.ai/install/lidar_shape_estimation;/home/nuc/autoware.ai/install/lidar_point_pillars;/home/nuc/autoware.ai/install/lidar_naive_l_shape_detect;/home/nuc/autoware.ai/install/lidar_fake_perception;/home/nuc/autoware.ai/install/lidar_apollo_cnn_seg_detect;/home/nuc/autoware.ai/install/libwaypoint_follower;/home/nuc/autoware.ai/install/lgsvl_simulator_bridge;/home/nuc/autoware.ai/install/lanelet2_extension;/home/nuc/autoware.ai/install/kvaser;/home/nuc/autoware.ai/install/kitti_launch;/home/nuc/autoware.ai/install/kitti_player;/home/nuc/autoware.ai/install/kitti_box_publisher;/home/nuc/autoware.ai/install/javad_navsat_driver;/home/nuc/autoware.ai/install/integrated_viewer;/home/nuc/autoware.ai/install/image_processor;/home/nuc/autoware.ai/install/hokuyo;/home/nuc/autoware.ai/install/graph_tools;/home/nuc/autoware.ai/install/gnss_localizer;/home/nuc/autoware.ai/install/gnss;/home/nuc/autoware.ai/install/glviewer;/home/nuc/autoware.ai/install/gazebo_world_description;/home/nuc/autoware.ai/install/gazebo_imu_description;/home/nuc/autoware.ai/install/gazebo_camera_description;/home/nuc/autoware.ai/install/garmin;/home/nuc/autoware.ai/install/freespace_planner;/home/nuc/autoware.ai/install/fastvirtualscan;/home/nuc/autoware.ai/install/ekf_localizer;/home/nuc/autoware.ai/install/ds4_msgs;/home/nuc/autoware.ai/install/ds4_driver;/home/nuc/autoware.ai/install/detected_objects_visualizer;/home/nuc/autoware.ai/install/decision_maker_panel;/home/nuc/autoware.ai/install/data_preprocessor;/home/nuc/autoware.ai/install/custom_msgs;/home/nuc/autoware.ai/install/carla_autoware_bridge;/home/nuc/autoware.ai/install/calibration_publisher;/home/nuc/autoware.ai/install/autoware_system_msgs;/home/nuc/autoware.ai/install/autoware_rviz_plugins;/home/nuc/autoware.ai/install/autoware_quickstart_examples;/home/nuc/autoware.ai/install/autoware_pointgrey_drivers;/home/nuc/autoware.ai/install/autoware_driveworks_interface;/home/nuc/autoware.ai/install/autoware_connector;/home/nuc/autoware.ai/install/autoware_camera_lidar_calibrator;/home/nuc/autoware.ai/install/astar_search;/home/nuc/autoware.ai/install/amathutils_lib;/home/nuc/autoware.ai/install/autoware_msgs;/home/nuc/autoware.ai/install/autoware_map_msgs;/home/nuc/autoware.ai/install/autoware_launcher_rviz;/home/nuc/autoware.ai/install/autoware_launcher;/home/nuc/autoware.ai/install/autoware_lanelet2_msgs;/home/nuc/autoware.ai/install/autoware_external_msgs;/home/nuc/autoware.ai/install/autoware_driveworks_gmsl_interface;/home/nuc/autoware.ai/install/autoware_config_msgs;/home/nuc/autoware.ai/install/autoware_can_msgs;/home/nuc/autoware.ai/install/autoware_build_flags;/home/nuc/autoware.ai/install/autoware_bag_tools;/home/nuc/autoware.ai/install/adi_driver;/opt/ros/melodic
+[1.200s] -- This workspace overlays: /home/nuc/autoware.ai/install/ymc;/home/nuc/autoware.ai/install/xsens_driver;/home/nuc/autoware.ai/install/wf_simulator;/home/nuc/autoware.ai/install/lattice_planner;/home/nuc/autoware.ai/install/waypoint_planner;/home/nuc/autoware.ai/install/waypoint_maker;/home/nuc/autoware.ai/install/way_planner;/home/nuc/autoware.ai/install/vlg22c_cam;/home/nuc/autoware.ai/install/vision_ssd_detect;/home/nuc/autoware.ai/install/vision_segment_enet_detect;/home/nuc/autoware.ai/install/vision_lane_detect;/home/nuc/autoware.ai/install/vision_darknet_detect;/home/nuc/autoware.ai/install/vision_beyond_track;/home/nuc/autoware.ai/install/vel_pose_diff_checker;/home/nuc/autoware.ai/install/vehicle_socket;/home/nuc/autoware.ai/install/vehicle_sim_model;/home/nuc/autoware.ai/install/vehicle_model;/home/nuc/autoware.ai/install/vehicle_gazebo_simulation_launcher;/home/nuc/autoware.ai/install/vehicle_gazebo_simulation_interface;/home/nuc/autoware.ai/install/vehicle_engage_panel;/home/nuc/autoware.ai/install/vehicle_description;/home/nuc/autoware.ai/install/trafficlight_recognizer;/home/nuc/autoware.ai/install/op_utilities;/home/nuc/autoware.ai/install/op_simulation_package;/home/nuc/autoware.ai/install/op_local_planner;/home/nuc/autoware.ai/install/op_global_planner;/home/nuc/autoware.ai/install/lidar_kf_contour_track;/home/nuc/autoware.ai/install/op_ros_helpers;/home/nuc/autoware.ai/install/ff_waypoint_follower;/home/nuc/autoware.ai/install/dp_planner;/home/nuc/autoware.ai/install/op_simu;/home/nuc/autoware.ai/install/op_planner;/home/nuc/autoware.ai/install/op_utility;/home/nuc/autoware.ai/install/lidar_euclidean_cluster_detect;/home/nuc/autoware.ai/install/vector_map_server;/home/nuc/autoware.ai/install/road_occupancy_processor;/home/nuc/autoware.ai/install/costmap_generator;/home/nuc/autoware.ai/install/object_map;/home/nuc/autoware.ai/install/naive_motion_predict;/home/nuc/autoware.ai/install/lanelet_aisan_converter;/home/nuc/autoware.ai/install/map_file;/home/nuc/autoware.ai/install/libvectormap;/home/nuc/autoware.ai/install/lane_planner;/home/nuc/autoware.ai/install/imm_ukf_pda_track;/home/nuc/autoware.ai/install/decision_maker;/home/nuc/autoware.ai/install/vector_map;/home/nuc/autoware.ai/install/vector_map_msgs;/home/nuc/autoware.ai/install/vectacam;/home/nuc/autoware.ai/install/udon_socket;/home/nuc/autoware.ai/install/twist_generator;/home/nuc/autoware.ai/install/twist_gate;/home/nuc/autoware.ai/install/twist_filter;/home/nuc/autoware.ai/install/twist2odom;/home/nuc/autoware.ai/install/tablet_socket;/home/nuc/autoware.ai/install/runtime_manager;/home/nuc/autoware.ai/install/mqtt_socket;/home/nuc/autoware.ai/install/tablet_socket_msgs;/home/nuc/autoware.ai/install/system_monitor;/home/nuc/autoware.ai/install/state_machine_lib;/home/nuc/autoware.ai/install/sound_player;/home/nuc/autoware.ai/install/sick_lms5xx;/home/nuc/autoware.ai/install/sick_ldmrs_tools;/home/nuc/autoware.ai/install/sick_ldmrs_driver;/home/nuc/autoware.ai/install/sick_ldmrs_msgs;/home/nuc/autoware.ai/install/sick_ldmrs_description;/home/nuc/autoware.ai/install/sensor_imu;/home/nuc/autoware.ai/install/points2image;/home/nuc/autoware.ai/install/rosinterface;/home/nuc/autoware.ai/install/rosbag_controller;/home/nuc/autoware.ai/install/pure_pursuit;/home/nuc/autoware.ai/install/points_preprocessor;/home/nuc/autoware.ai/install/mpc_follower;/home/nuc/autoware.ai/install/lidar_localizer;/home/nuc/autoware.ai/install/emergency_handler;/home/nuc/autoware.ai/install/autoware_health_checker;/home/nuc/autoware.ai/install/as;/home/nuc/autoware.ai/install/ros_observer;/home/nuc/autoware.ai/install/roi_object_filter;/home/nuc/autoware.ai/install/range_vision_fusion;/home/nuc/autoware.ai/install/pos_db;/home/nuc/autoware.ai/install/points_downsampler;/home/nuc/autoware.ai/install/pixel_cloud_fusion;/home/nuc/autoware.ai/install/pcl_omp_registration;/home/nuc/autoware.ai/install/pc2_downsampler;/home/nuc/autoware.ai/install/oculus_socket;/home/nuc/autoware.ai/install/obj_db;/home/nuc/autoware.ai/install/nmea_navsat;/home/nuc/autoware.ai/install/ndt_tku;/home/nuc/autoware.ai/install/ndt_cpu;/home/nuc/autoware.ai/install/multi_lidar_calibrator;/home/nuc/autoware.ai/install/microstrain_driver;/home/nuc/autoware.ai/install/memsic_imu;/home/nuc/autoware.ai/install/marker_downsampler;/home/nuc/autoware.ai/install/map_tools;/home/nuc/autoware.ai/install/map_tf_generator;/home/nuc/autoware.ai/install/log_tools;/home/nuc/autoware.ai/install/lidar_shape_estimation;/home/nuc/autoware.ai/install/lidar_point_pillars;/home/nuc/autoware.ai/install/lidar_naive_l_shape_detect;/home/nuc/autoware.ai/install/lidar_fake_perception;/home/nuc/autoware.ai/install/lidar_apollo_cnn_seg_detect;/home/nuc/autoware.ai/install/libwaypoint_follower;/home/nuc/autoware.ai/install/lgsvl_simulator_bridge;/home/nuc/autoware.ai/install/lanelet2_extension;/home/nuc/autoware.ai/install/kvaser;/home/nuc/autoware.ai/install/kitti_launch;/home/nuc/autoware.ai/install/kitti_player;/home/nuc/autoware.ai/install/kitti_box_publisher;/home/nuc/autoware.ai/install/javad_navsat_driver;/home/nuc/autoware.ai/install/integrated_viewer;/home/nuc/autoware.ai/install/image_processor;/home/nuc/autoware.ai/install/hokuyo;/home/nuc/autoware.ai/install/graph_tools;/home/nuc/autoware.ai/install/gnss_localizer;/home/nuc/autoware.ai/install/gnss;/home/nuc/autoware.ai/install/glviewer;/home/nuc/autoware.ai/install/gazebo_world_description;/home/nuc/autoware.ai/install/gazebo_imu_description;/home/nuc/autoware.ai/install/gazebo_camera_description;/home/nuc/autoware.ai/install/garmin;/home/nuc/autoware.ai/install/freespace_planner;/home/nuc/autoware.ai/install/fastvirtualscan;/home/nuc/autoware.ai/install/ekf_localizer;/home/nuc/autoware.ai/install/ds4_msgs;/home/nuc/autoware.ai/install/ds4_driver;/home/nuc/autoware.ai/install/detected_objects_visualizer;/home/nuc/autoware.ai/install/decision_maker_panel;/home/nuc/autoware.ai/install/data_preprocessor;/home/nuc/autoware.ai/install/custom_msgs;/home/nuc/autoware.ai/install/carla_autoware_bridge;/home/nuc/autoware.ai/install/calibration_publisher;/home/nuc/autoware.ai/install/autoware_system_msgs;/home/nuc/autoware.ai/install/autoware_rviz_plugins;/home/nuc/autoware.ai/install/autoware_quickstart_examples;/home/nuc/autoware.ai/install/autoware_pointgrey_drivers;/home/nuc/autoware.ai/install/autoware_driveworks_interface;/home/nuc/autoware.ai/install/autoware_connector;/home/nuc/autoware.ai/install/autoware_camera_lidar_calibrator;/home/nuc/autoware.ai/install/astar_search;/home/nuc/autoware.ai/install/amathutils_lib;/home/nuc/autoware.ai/install/autoware_msgs;/home/nuc/autoware.ai/install/autoware_map_msgs;/home/nuc/autoware.ai/install/autoware_launcher_rviz;/home/nuc/autoware.ai/install/autoware_launcher;/home/nuc/autoware.ai/install/autoware_lanelet2_msgs;/home/nuc/autoware.ai/install/autoware_external_msgs;/home/nuc/autoware.ai/install/autoware_driveworks_gmsl_interface;/home/nuc/autoware.ai/install/autoware_config_msgs;/home/nuc/autoware.ai/install/autoware_can_msgs;/home/nuc/autoware.ai/install/autoware_build_flags;/home/nuc/autoware.ai/install/autoware_bag_tools;/home/nuc/autoware.ai/install/adi_driver;/opt/ros/melodic
+[1.218s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.218s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.219s] -- Using Debian Python package layout
+[1.220s] -- Using empy: /usr/bin/empy
+[1.360s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.360s] -- Call enable_testing()
+[1.363s] -- Using CATKIN_TEST_RESULTS_DIR: /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender/test_results
+[1.402s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.402s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.419s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.420s] -- Looking for pthread.h
+[1.502s] -- Looking for pthread.h - found
+[1.502s] -- Looking for pthread_create
+[1.589s] -- Looking for pthread_create - not found
+[1.590s] -- Looking for pthread_create in pthreads
+[1.682s] -- Looking for pthread_create in pthreads - not found
+[1.682s] -- Looking for pthread_create in pthread
+[1.777s] -- Looking for pthread_create in pthread - found
+[1.778s] -- Found Threads: TRUE  
+[1.784s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.833s] -- catkin 0.7.26
+[1.833s] -- BUILD_SHARED_LIBS is on
+[2.212s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.532s] -- Configuring done
+[2.559s] -- Generating done
+[2.566s] -- Build files have been written to: /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender
+[2.570s] Invoked command in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender' returned '0': /usr/bin/cmake /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender
+[2.573s] Invoking command in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender -- -j8 -l8
+[2.642s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_cpp[0m
+[2.642s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[2.647s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_eus[0m
+[2.647s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_py[0m
+[2.648s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[2.650s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_py[0m
+[2.655s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[2.657s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[2.672s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[2.675s] [  0%] Built target autoware_can_msgs_generate_messages_eus
+[2.683s] [  0%] Built target autoware_msgs_generate_messages_py
+[2.689s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[2.690s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[2.691s] [  0%] Built target autoware_can_msgs_generate_messages_py
+[2.696s] [  0%] Built target geometry_msgs_generate_messages_py
+[2.717s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_cpp[0m
+[2.717s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[2.720s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[2.721s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[2.735s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs[0m
+[2.736s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[2.739s] [  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[2.741s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[2.745s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[2.752s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[2.756s] [  0%] Built target sensor_msgs_generate_messages_eus
+[2.763s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[2.778s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[2.778s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[2.784s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[2.785s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[2.786s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[2.787s] [  0%] Built target roscpp_generate_messages_cpp
+[2.794s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[2.802s] [  0%] Built target roscpp_generate_messages_lisp
+[2.811s] [  0%] Built target sensor_msgs_generate_messages_py
+[2.815s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_nodejs[0m
+[2.825s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[2.826s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[2.830s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_py[0m
+[2.836s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_py[0m
+[2.842s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[2.848s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[2.851s] [  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[2.859s] [  0%] Built target roscpp_generate_messages_py
+[2.863s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[2.865s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[2.869s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[2.870s] [  0%] Built target tablet_socket_msgs_generate_messages_py
+[2.883s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[2.885s] [  0%] Built target pcl_msgs_generate_messages_eus
+[2.887s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_eus[0m
+[2.889s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[2.892s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[2.900s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_lisp[0m
+[2.909s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[2.911s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[2.923s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[2.926s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[2.926s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_lisp[0m
+[2.927s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[2.928s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[2.932s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[2.937s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[2.947s] [  0%] Built target roscpp_generate_messages_nodejs
+[2.954s] [  0%] Built target geometry_msgs_generate_messages_eus
+[2.956s] [  0%] Built target roscpp_generate_messages_eus
+[2.956s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[2.958s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[2.959s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_lisp[0m
+[2.963s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[2.973s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[2.977s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_nodejs[0m
+[2.981s] [  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[2.985s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_cpp[0m
+[2.987s] [  0%] Built target std_msgs_generate_messages_nodejs
+[2.989s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[2.989s] [  0%] Built target std_msgs_generate_messages_lisp
+[3.001s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[3.005s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[3.009s] [  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[3.012s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[3.015s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_nodejs[0m
+[3.017s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[3.019s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_lisp[0m
+[3.026s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[3.029s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[3.029s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[3.039s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[3.041s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_py[0m
+[3.045s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[3.046s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[3.049s] [  0%] Built target std_msgs_generate_messages_eus
+[3.063s] [  0%] Built target actionlib_msgs_generate_messages_py
+[3.066s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[3.066s] [  0%] Built target std_msgs_generate_messages_py
+[3.066s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[3.071s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_eus[0m
+[3.073s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[3.077s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[3.088s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_lisp[0m
+[3.088s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs[0m
+[3.088s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[3.090s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_cpp[0m
+[3.102s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[3.102s] [  0%] Built target std_msgs_generate_messages_cpp
+[3.108s] [  0%] Built target pcl_msgs_generate_messages_py
+[3.111s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[3.113s] [  0%] Built target autoware_can_msgs_generate_messages_lisp
+[3.117s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[3.123s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[3.125s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_eus[0m
+[3.126s] [  0%] Built target autoware_can_msgs_generate_messages_cpp
+[3.129s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_eus[0m
+[3.130s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_cpp[0m
+[3.137s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[3.145s] [  0%] Built target autoware_msgs_generate_messages_eus
+[3.150s] [  0%] Built target tablet_socket_msgs_generate_messages_eus
+[3.152s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[3.159s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[3.175s] [35m[1mScanning dependencies of target app_cmd_sender[0m
+[3.214s] [ 50%] [32mBuilding CXX object CMakeFiles/app_cmd_sender.dir/nodes/app_cmd_sender.cpp.o[0m
+[4.185s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.185s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:39:60:[m[K [01;31m[Kerror: [m[K‘[01m[KvehicleCmdCallback[m[K’ was not declared in this scope
+[4.185s]      ros::Subscriber sub1 = nh.subscribe("/vehicle_cmd", 1, [01;31m[KvehicleCmdCallback[m[K);
+[4.185s]                                                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.193s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:40:65:[m[K [01;31m[Kerror: [m[K‘[01m[KcallbackFromCurrentVelocity[m[K’ was not declared in this scope
+[4.193s]      ros::Subscriber sub2 = nh.subscribe("/current_velocity", 1, [01;31m[KcallbackFromCurrentVelocity[m[K);
+[4.193s]                                                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.205s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:42:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_data[m[K’ was not declared in this scope
+[4.206s]      [01;31m[Kcommand_data[m[K.reset();
+[4.206s]      [01;31m[K^~~~~~~~~~~~[m[K
+[4.209s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:42:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kdrand48_data[m[K’
+[4.209s]      [01;36m[Kcommand_data[m[K.reset();
+[4.209s]      [01;36m[K^~~~~~~~~~~~[m[K
+[4.209s]      [32m[Kdrand48_data[m[K
+[4.314s] CMakeFiles/app_cmd_sender.dir/build.make:62: recipe for target 'CMakeFiles/app_cmd_sender.dir/nodes/app_cmd_sender.cpp.o' failed
+[4.314s] make[2]: *** [CMakeFiles/app_cmd_sender.dir/nodes/app_cmd_sender.cpp.o] Error 1
+[4.314s] make[1]: *** [CMakeFiles/app_cmd_sender.dir/all] Error 2
+[4.314s] CMakeFiles/Makefile2:126: recipe for target 'CMakeFiles/app_cmd_sender.dir/all' failed
+[4.314s] Makefile:140: recipe for target 'all' failed
+[4.315s] make: *** [all] Error 2
+[4.317s] Invoked command in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender' returned '2': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender -- -j8 -l8

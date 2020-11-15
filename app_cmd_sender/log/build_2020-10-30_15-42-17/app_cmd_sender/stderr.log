@@ -1,0 +1,7 @@
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:[m[K In function ‘[01m[Kvoid centerlineCallback(const MarkerArray&)[m[K’:
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:41:29:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst _markers_type {aka const std::vector<visualization_msgs::Marker_<std::allocator<void> >, std::allocator<visualization_msgs::Marker_<std::allocator<void> > > >}[m[K’
+     std::cout << ary.markers[01;31m[K->[m[Kpoints.size();
+                             [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/app_cmd_sender.dir/nodes/app_cmd_sender.cpp.o] Error 1
+make[1]: *** [CMakeFiles/app_cmd_sender.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner/devel/setup.sh

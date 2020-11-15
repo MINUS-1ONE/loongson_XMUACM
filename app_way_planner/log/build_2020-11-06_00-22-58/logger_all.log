@@ -1,0 +1,100 @@
+[0.166s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.166s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa1a95d4978>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa1a95d4978>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa1a95d4d30>)
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.188s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.catkin' and name 'app_way_planner'
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'app_way_planner' build argument 'cmake_args' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'app_way_planner' build argument 'cmake_target' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'app_way_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'app_way_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'app_way_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'app_way_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'app_way_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'app_way_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'app_way_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.207s] DEBUG:colcon.colcon_core.verb:Building package 'app_way_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner', 'merge_install': False, 'path': '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner', 'symlink_install': False, 'test_result_base': None}
+[0.208s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.210s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.210s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner' with build type 'catkin'
+[0.210s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner'
+[0.216s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.217s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.217s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.229s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/melodic'
+[0.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner -- -j8 -l8
+[11.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner' returned '0': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner -- -j8 -l8
+[11.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner --target tests -- -j8 -l8
+[11.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner' returned '0': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner --target tests -- -j8 -l8
+[11.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner --target install -- -j8 -l8
+[11.728s] Level 1:colcon.colcon_core.shell:create_environment_hook('app_way_planner', 'ros_package_path')
+[11.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/hook/ros_package_path.ps1'
+[11.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner' returned '0': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner --target install -- -j8 -l8
+[11.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/hook/ros_package_path.dsv'
+[11.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/hook/ros_package_path.sh'
+[11.731s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/lib/python2.7/dist-packages'
+[11.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('app_way_planner', 'pkg_config_path')
+[11.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/hook/pkg_config_path.ps1'
+[11.732s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/hook/pkg_config_path.dsv'
+[11.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/hook/pkg_config_path.sh'
+[11.736s] Level 1:colcon.colcon_core.shell:create_environment_hook('app_way_planner', 'pkg_config_path_multiarch')
+[11.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/hook/pkg_config_path_multiarch.ps1'
+[11.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/hook/pkg_config_path_multiarch.dsv'
+[11.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/hook/pkg_config_path_multiarch.sh'
+[11.739s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(app_way_planner)
+[11.743s] Level 1:colcon.colcon_core.environment:checking '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner' for CMake module files
+[11.743s] Level 1:colcon.colcon_core.environment:checking '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner' for CMake config files
+[11.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('app_way_planner', 'cmake_prefix_path')
+[11.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/hook/cmake_prefix_path.ps1'
+[11.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/hook/cmake_prefix_path.dsv'
+[11.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/hook/cmake_prefix_path.sh'
+[11.745s] Level 1:colcon.colcon_core.environment:checking '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/lib'
+[11.746s] Level 1:colcon.colcon_core.environment:checking '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/bin'
+[11.746s] Level 1:colcon.colcon_core.environment:checking '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/lib/pkgconfig/app_way_planner.pc'
+[11.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('app_way_planner', 'pkg_config')
+[11.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/hook/pkg_config.ps1'
+[11.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/hook/pkg_config.dsv'
+[11.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/hook/pkg_config.sh'
+[11.748s] Level 1:colcon.colcon_core.environment:checking '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/lib/python3.6/site-packages'
+[11.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/package.ps1'
+[11.751s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/package.dsv'
+[11.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/package.sh'
+[11.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/package.bash'
+[11.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/package.zsh'
+[11.754s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/colcon-core/packages/app_way_planner)
+[11.755s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.756s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.756s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.756s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.765s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.765s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.765s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.767s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.768s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/local_setup.ps1'
+[11.770s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/_local_setup_util_ps1.py'
+[11.772s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/setup.ps1'
+[11.786s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/local_setup.sh'
+[11.787s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/_local_setup_util_sh.py'
+[11.788s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/setup.sh'
+[11.800s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/local_setup.bash'
+[11.801s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/setup.bash'
+[11.809s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/local_setup.zsh'
+[11.810s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/setup.zsh'

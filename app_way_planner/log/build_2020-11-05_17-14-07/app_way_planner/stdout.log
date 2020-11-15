@@ -1,0 +1,12 @@
+[100%] Built target app_way_planner
+Built target tests
+[100%] Built target app_way_planner
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/lib/pkgconfig/app_way_planner.pc
+-- Up-to-date: /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/cmake/app_way_plannerConfig.cmake
+-- Up-to-date: /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/cmake/app_way_plannerConfig-version.cmake
+-- Up-to-date: /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/package.xml
+-- Up-to-date: /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/lib/app_way_planner/app_way_planner
+-- Up-to-date: /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/launch
+-- Installing: /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/launch/app_way_planner.launch

@@ -1,0 +1,6 @@
+/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/install/vehicle_socket/lib/pkgconfig/vehicle_socket.pc
+/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/install/vehicle_socket/share/vehicle_socket/cmake/vehicle_socketConfig.cmake
+/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/install/vehicle_socket/share/vehicle_socket/cmake/vehicle_socketConfig-version.cmake
+/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/install/vehicle_socket/share/vehicle_socket/package.xml
+/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/install/vehicle_socket/lib/vehicle_socket/vehicle_sender
+/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/install/vehicle_socket/lib/vehicle_socket/vehicle_receiver

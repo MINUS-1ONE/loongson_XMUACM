@@ -1,0 +1,95 @@
+[0.039s] Invoking command in '/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket -- -j8 -l8
+[0.196s] [  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[0.220s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.220s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.240s] [  0%] Built target tablet_socket_msgs_generate_messages_py
+[0.249s] [  0%] Built target tablet_socket_msgs_generate_messages_eus
+[0.263s] [  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[0.324s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.325s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.329s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.341s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.368s] [  0%] Built target roscpp_generate_messages_py
+[0.383s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[0.391s] [  0%] Built target roscpp_generate_messages_lisp
+[0.414s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[0.441s] [  0%] Built target pcl_msgs_generate_messages_py
+[0.455s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[0.489s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[0.490s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[0.521s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.545s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.595s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[0.620s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.642s] [  0%] Built target sensor_msgs_generate_messages_eus
+[0.650s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[0.659s] [  0%] Built target pcl_msgs_generate_messages_eus
+[0.666s] [  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[0.710s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.753s] [  0%] Built target autoware_can_msgs_generate_messages_py
+[0.786s] [  0%] Built target std_msgs_generate_messages_eus
+[0.786s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[0.795s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[0.799s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.834s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[0.850s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[0.897s] [  0%] Built target autoware_can_msgs_generate_messages_eus
+[0.897s] [  0%] Built target std_msgs_generate_messages_py
+[0.924s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.931s] [  0%] Built target autoware_msgs_generate_messages_py
+[0.938s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.967s] [  0%] Built target sensor_msgs_generate_messages_py
+[1.004s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[1.041s] [  0%] Built target autoware_msgs_generate_messages_eus
+[1.043s] [  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[1.043s] [  0%] Built target autoware_can_msgs_generate_messages_cpp
+[1.061s] [  0%] Built target autoware_can_msgs_generate_messages_lisp
+[1.075s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[1.111s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[1.119s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[1.153s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[1.154s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[1.154s] [  0%] Built target roscpp_generate_messages_nodejs
+[1.158s] [  0%] Built target roscpp_generate_messages_eus
+[1.230s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[1.296s] [  0%] Built target roscpp_generate_messages_cpp
+[1.358s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[1.417s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[1.464s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[1.520s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[1.572s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[1.585s] [  0%] Built target geometry_msgs_generate_messages_eus
+[1.618s] [35m[1mScanning dependencies of target vehicle_sender[0m
+[1.653s] [ 25%] [32mBuilding CXX object CMakeFiles/vehicle_sender.dir/nodes/vehicle_sender/vehicle_sender.cpp.o[0m
+[3.301s] In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+[3.301s]                  from [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:17[m[K:
+[3.301s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:[m[K In function ‘[01m[Kvoid callbackAppCmd(const ConstPtr&)[m[K’:
+[3.302s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:178:31:[m[K [01;31m[Kerror: [m[Kinvalid cast from type ‘[01m[Kconst _data_type {aka const std::__cxx11::basic_string<char>}[m[K’ to type ‘[01m[Kchar*[m[K’
+[3.302s]      ROS_WARN((char*)(msg->data[01;31m[K)[m[K);
+[3.302s]                                [01;31m[K^[m[K
+[3.302s] [01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[3.302s]  _location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+[3.302s]                                                                      [01;36m[K^~~~~~~~~~~[m[K
+[3.303s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[3.303s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[3.303s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.303s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[3.303s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[3.303s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[3.303s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:162:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[3.304s]  #define ROS_WARN(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Warn, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[3.304s]                        [01;36m[K^~~~~~~[m[K
+[3.304s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:178:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_WARN[m[K’
+[3.304s]      [01;36m[KR[m[KOS_WARN((char*)(msg->data));
+[3.304s]      [01;36m[K^[m[K
+[3.658s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:[m[K At global scope:
+[3.659s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:231:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* receiverCaller(void*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[3.659s]  static void *[01;35m[KreceiverCaller[m[K(void *unused)
+[3.659s]               [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.671s] make[2]: *** [CMakeFiles/vehicle_sender.dir/nodes/vehicle_sender/vehicle_sender.cpp.o] Error 1
+[3.671s] CMakeFiles/vehicle_sender.dir/build.make:62: recipe for target 'CMakeFiles/vehicle_sender.dir/nodes/vehicle_sender/vehicle_sender.cpp.o' failed
+[3.671s] make[1]: *** [CMakeFiles/vehicle_sender.dir/all] Error 2
+[3.671s] CMakeFiles/Makefile2:190: recipe for target 'CMakeFiles/vehicle_sender.dir/all' failed
+[3.671s] Makefile:140: recipe for target 'all' failed
+[3.671s] make: *** [all] Error 2
+[3.674s] Invoked command in '/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket' returned '2': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket -- -j8 -l8

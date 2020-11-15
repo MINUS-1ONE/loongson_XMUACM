@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target app_way_planner[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/app_way_planner.dir/nodes/app_way_planner.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/app_way_planner.dir/nodes/app_way_planner_core.cpp.o[0m
+CMakeFiles/app_way_planner.dir/build.make:86: recipe for target 'CMakeFiles/app_way_planner.dir/nodes/app_way_planner_core.cpp.o' failed
+CMakeFiles/Makefile2:2467: recipe for target 'CMakeFiles/app_way_planner.dir/all' failed
+Makefile:140: recipe for target 'all' failed

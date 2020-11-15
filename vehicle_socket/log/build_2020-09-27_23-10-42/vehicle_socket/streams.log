@@ -1,0 +1,108 @@
+[0.026s] Invoking command in '/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket -- -j8 -l8
+[0.116s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[0.116s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.116s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[0.116s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[0.116s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.117s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[0.118s] [  0%] Built target pcl_msgs_generate_messages_py
+[0.127s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.155s] [  0%] Built target tablet_socket_msgs_generate_messages_eus
+[0.160s] [  0%] Built target pcl_msgs_generate_messages_eus
+[0.160s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[0.162s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.167s] [  0%] Built target std_msgs_generate_messages_py
+[0.167s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[0.170s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.172s] [  0%] Built target autoware_msgs_generate_messages_py
+[0.206s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.206s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[0.206s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[0.208s] [  0%] Built target sensor_msgs_generate_messages_py
+[0.208s] [  0%] Built target roscpp_generate_messages_lisp
+[0.209s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.224s] [  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[0.224s] [  0%] Built target autoware_can_msgs_generate_messages_eus
+[0.243s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.248s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.248s] [  0%] Built target roscpp_generate_messages_cpp
+[0.255s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.259s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.260s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[0.267s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[0.268s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[0.288s] [  0%] Built target sensor_msgs_generate_messages_eus
+[0.289s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.292s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[0.301s] [  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[0.308s] [  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[0.310s] [  0%] Built target autoware_can_msgs_generate_messages_lisp
+[0.310s] [  0%] Built target autoware_can_msgs_generate_messages_cpp
+[0.311s] [  0%] Built target autoware_can_msgs_generate_messages_py
+[0.340s] [  0%] Built target autoware_msgs_generate_messages_eus
+[0.343s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[0.346s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[0.349s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[0.350s] [  0%] Built target std_msgs_generate_messages_eus
+[0.351s] [  0%] Built target roscpp_generate_messages_py
+[0.359s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[0.361s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.388s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.390s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.391s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.392s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[0.394s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[0.401s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[0.410s] [  0%] Built target tablet_socket_msgs_generate_messages_py
+[0.412s] [  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[0.422s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.423s] [  0%] Built target roscpp_generate_messages_eus
+[0.427s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.427s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.443s] [35m[1mScanning dependencies of target vehicle_sender[0m
+[0.461s] [ 75%] Built target vehicle_receiver
+[0.461s] [ 75%] [32mBuilding CXX object CMakeFiles/vehicle_sender.dir/nodes/vehicle_sender/vehicle_sender.cpp.o[0m
+[1.366s] In file included from [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:30:0[m[K:
+[1.366s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/control.h:[m[K In member function ‘[01m[Kvoid Control::brake(uint8_t)[m[K’:
+[1.366s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/control.h:208:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kerr[m[K’ was not declared in this scope
+[1.366s]                  [01;31m[Kerr[m[K = 1;
+[1.366s]                  [01;31m[K^~~[m[K
+[1.367s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/control.h:208:17:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kerf[m[K’
+[1.367s]                  [01;36m[Kerr[m[K = 1;
+[1.367s]                  [01;36m[K^~~[m[K
+[1.367s]                  [32m[Kerf[m[K
+[1.367s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/control.h:[m[K In member function ‘[01m[Kvoid Control::steer(int16_t)[m[K’:
+[1.367s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/control.h:227:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kerr[m[K’ was not declared in this scope
+[1.367s]                  [01;31m[Kerr[m[K = 1;
+[1.367s]                  [01;31m[K^~~[m[K
+[1.368s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/control.h:227:17:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kerf[m[K’
+[1.368s]                  [01;36m[Kerr[m[K = 1;
+[1.368s]                  [01;36m[K^~~[m[K
+[1.368s]                  [32m[Kerf[m[K
+[1.368s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/control.h:[m[K In member function ‘[01m[Kvoid Control::throttle(uint8_t)[m[K’:
+[1.368s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/control.h:245:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kerr[m[K’ was not declared in this scope
+[1.368s]                  [01;31m[Kerr[m[K = 1;
+[1.368s]                  [01;31m[K^~~[m[K
+[1.368s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/control.h:245:17:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kerf[m[K’
+[1.369s]                  [01;36m[Kerr[m[K = 1;
+[1.369s]                  [01;36m[K^~~[m[K
+[1.369s]                  [32m[Kerf[m[K
+[1.369s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/control.h:[m[K In member function ‘[01m[Kvoid Control::gear(uint8_t)[m[K’:
+[1.369s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/control.h:262:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kerr[m[K’ was not declared in this scope
+[1.369s]                  [01;31m[Kerr[m[K = 1;
+[1.369s]                  [01;31m[K^~~[m[K
+[1.369s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/control.h:262:17:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kerf[m[K’
+[1.369s]                  [01;36m[Kerr[m[K = 1;
+[1.370s]                  [01;36m[K^~~[m[K
+[1.370s]                  [32m[Kerf[m[K
+[1.515s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:[m[K At global scope:
+[1.516s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:175:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* receiverCaller(void*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[1.516s]  static void *[01;35m[KreceiverCaller[m[K(void *unused)
+[1.516s]               [01;35m[K^~~~~~~~~~~~~~[m[K
+[1.525s] make[2]: *** [CMakeFiles/vehicle_sender.dir/nodes/vehicle_sender/vehicle_sender.cpp.o] Error 1
+[1.525s] CMakeFiles/vehicle_sender.dir/build.make:62: recipe for target 'CMakeFiles/vehicle_sender.dir/nodes/vehicle_sender/vehicle_sender.cpp.o' failed
+[1.525s] CMakeFiles/Makefile2:190: recipe for target 'CMakeFiles/vehicle_sender.dir/all' failed
+[1.525s] make[1]: *** [CMakeFiles/vehicle_sender.dir/all] Error 2
+[1.525s] make: *** [all] Error 2
+[1.525s] Makefile:140: recipe for target 'all' failed
+[1.528s] Invoked command in '/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket' returned '2': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket -- -j8 -l8

@@ -1,0 +1,8 @@
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:[m[K In function ‘[01m[Kvoid centerlineCallback(const MarkerArray&)[m[K’:
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:41:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _markers_type {aka const class std::vector<visualization_msgs::Marker_<std::allocator<void> >, std::allocator<visualization_msgs::Marker_<std::allocator<void> > > >}[m[K’ has no member named ‘[01m[Kpoints[m[K’; did you mean ‘[01m[Kpointer[m[K’?
+     std::cout << ary.markers.[01;31m[Kpoints[m[K.size();
+                              [01;31m[K^~~~~~[m[K
+                              [32m[Kpointer[m[K
+make[2]: *** [CMakeFiles/app_cmd_sender.dir/nodes/app_cmd_sender.cpp.o] Error 1
+make[1]: *** [CMakeFiles/app_cmd_sender.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,21 @@
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:175:37:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[Kstd_msgs[m[K’ does not name a type
+ void callbackAppCmd(const std_msgs::[01;31m[KString[m[K::ConstPtr& msg)
+                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:175:53:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+ void callbackAppCmd(const std_msgs::String::ConstPtr[01;31m[K&[m[K msg)
+                                                     [01;31m[K^[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:175:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:175:55:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+ void callbackAppCmd(const std_msgs::String::ConstPtr& [01;31m[Kmsg[m[K)
+                                                       [01;31m[K^~~[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:307:64:[m[K [01;31m[Kerror: [m[K‘[01m[KcallbackAppCmd[m[K’ was not declared in this scope
+     ros::Subscriber sub3 = nh.subscribe("/app_vehicle_cmd", 1, [01;31m[KcallbackAppCmd[m[K);
+                                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:[m[K At global scope:
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:224:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* receiverCaller(void*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ static void *[01;35m[KreceiverCaller[m[K(void *unused)
+              [01;35m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/vehicle_sender.dir/nodes/vehicle_sender/vehicle_sender.cpp.o] Error 1
+make[1]: *** [CMakeFiles/vehicle_sender.dir/all] Error 2
+make: *** [all] Error 2

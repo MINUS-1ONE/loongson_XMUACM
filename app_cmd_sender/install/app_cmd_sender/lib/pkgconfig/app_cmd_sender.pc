@@ -1,0 +1,8 @@
+prefix=/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender
+
+Name: app_cmd_sender
+Description: Description of app_cmd_sender
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

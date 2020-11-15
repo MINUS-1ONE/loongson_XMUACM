@@ -1,0 +1,10 @@
+[0.053s] Invoking command in '/home/nuc/Desktop/app_cmd_sender/build/app_cmd_sender': /usr/bin/cmake --build /home/nuc/Desktop/app_cmd_sender/build/app_cmd_sender -- -j8 -l8
+[0.083s] CMake Error: The current CMakeCache.txt directory /home/nuc/Desktop/app_cmd_sender/build/app_cmd_sender/CMakeCache.txt is different than the directory /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.148s] /bin/sh: 1: cd: can't cd to /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender
+[0.148s] CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make:70: recipe for target 'CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend' failed
+[0.148s] make[2]: *** [CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend] Error 2
+[0.148s] CMakeFiles/Makefile2:2211: recipe for target 'CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all' failed
+[0.149s] make[1]: *** [CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all] Error 2
+[0.149s] Makefile:140: recipe for target 'all' failed
+[0.149s] make: *** [all] Error 2
+[0.152s] Invoked command in '/home/nuc/Desktop/app_cmd_sender/build/app_cmd_sender' returned '2': /usr/bin/cmake --build /home/nuc/Desktop/app_cmd_sender/build/app_cmd_sender -- -j8 -l8

@@ -1,0 +1,9 @@
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:29:10:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+ #include [01;35m[K"[m[Kcontrolcan.h
+          [01;35m[K^[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:29:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+ #include [01;31m[K"controlcan.h[m[K
+          [01;31m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/vehicle_sender.dir/nodes/vehicle_sender/vehicle_sender.cpp.o] Error 1
+make[1]: *** [CMakeFiles/vehicle_sender.dir/all] Error 2
+make: *** [all] Error 2

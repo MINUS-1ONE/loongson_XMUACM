@@ -1,0 +1,34 @@
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:42:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+     [01;31m[Kpub_[m[K = nh_.advertise<geometry_msgs::PoseStamped>( /move_base_simple/goal, 1 );
+     [01;31m[K^~~~[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:42:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kputw[m[K’
+     [01;36m[Kpub_[m[K = nh_.advertise<geometry_msgs::PoseStamped>( /move_base_simple/goal, 1 );
+     [01;36m[K^~~~[m[K
+     [32m[Kputw[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:42:12:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope
+     pub_ = [01;31m[Knh_[m[K.advertise<geometry_msgs::PoseStamped>( /move_base_simple/goal, 1 );
+            [01;31m[K^~~[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:42:12:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knh[m[K’
+     pub_ = [01;36m[Knh_[m[K.advertise<geometry_msgs::PoseStamped>( /move_base_simple/goal, 1 );
+            [01;36m[K^~~[m[K
+            [32m[Knh[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:42:52:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+     pub_ = nh_.advertise<geometry_msgs::PoseStamped[01;31m[K>[m[K( /move_base_simple/goal, 1 );
+                                                    [01;31m[K^[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:42:55:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K/[m[K’ token
+     pub_ = nh_.advertise<geometry_msgs::PoseStamped>( [01;31m[K/[m[Kmove_base_simple/goal, 1 );
+                                                       [01;31m[K^[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:42:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_base_simple[m[K’ was not declared in this scope
+     pub_ = nh_.advertise<geometry_msgs::PoseStamped>( /[01;31m[Kmove_base_simple[m[K/goal, 1 );
+                                                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:42:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal[m[K’ was not declared in this scope
+     pub_ = nh_.advertise<geometry_msgs::PoseStamped>( /move_base_simple/[01;31m[Kgoal[m[K, 1 );
+                                                                         [01;31m[K^~~~[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:42:73:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kpowl[m[K’
+     pub_ = nh_.advertise<geometry_msgs::PoseStamped>( /move_base_simple/[01;36m[Kgoal[m[K, 1 );
+                                                                         [01;36m[K^~~~[m[K
+                                                                         [32m[Kpowl[m[K
+make[2]: *** [CMakeFiles/app_cmd_sender.dir/nodes/app_cmd_sender.cpp.o] Error 1
+make[1]: *** [CMakeFiles/app_cmd_sender.dir/all] Error 2
+make: *** [all] Error 2

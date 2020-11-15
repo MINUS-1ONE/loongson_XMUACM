@@ -1,0 +1,93 @@
+[0.022s] Invoking command in '/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket -- -j8 -l8
+[0.125s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.128s] [  0%] Built target pcl_msgs_generate_messages_py
+[0.130s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.140s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[0.140s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[0.143s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[0.143s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[0.143s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.182s] [  0%] Built target pcl_msgs_generate_messages_eus
+[0.184s] [  0%] Built target tablet_socket_msgs_generate_messages_eus
+[0.187s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[0.192s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.202s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[0.203s] [  0%] Built target autoware_msgs_generate_messages_py
+[0.205s] [  0%] Built target std_msgs_generate_messages_py
+[0.205s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.237s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.245s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.245s] [  0%] Built target roscpp_generate_messages_lisp
+[0.245s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[0.249s] [  0%] Built target sensor_msgs_generate_messages_py
+[0.254s] [  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[0.257s] [  0%] Built target autoware_can_msgs_generate_messages_eus
+[0.263s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[0.297s] [  0%] Built target roscpp_generate_messages_cpp
+[0.297s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.299s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.300s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.305s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[0.316s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[0.317s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[0.321s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.356s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.356s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[0.357s] [  0%] Built target autoware_can_msgs_generate_messages_py
+[0.359s] [  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[0.368s] [  0%] Built target sensor_msgs_generate_messages_eus
+[0.370s] [  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[0.375s] [  0%] Built target autoware_can_msgs_generate_messages_lisp
+[0.376s] [  0%] Built target autoware_can_msgs_generate_messages_cpp
+[0.408s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[0.411s] [  0%] Built target std_msgs_generate_messages_eus
+[0.413s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[0.416s] [  0%] Built target autoware_msgs_generate_messages_eus
+[0.419s] [  0%] Built target roscpp_generate_messages_py
+[0.423s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[0.429s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.431s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[0.457s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.466s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[0.469s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[0.472s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.476s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[0.478s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.479s] [  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[0.491s] [  0%] Built target tablet_socket_msgs_generate_messages_py
+[0.499s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.508s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.512s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.519s] [  0%] Built target roscpp_generate_messages_eus
+[0.536s] [35m[1mScanning dependencies of target vehicle_sender[0m
+[0.553s] [ 50%] Built target vehicle_receiver
+[0.555s] [ 75%] [32mBuilding CXX object CMakeFiles/vehicle_sender.dir/nodes/vehicle_sender/vehicle_sender.cpp.o[0m
+[1.583s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:175:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* receiverCaller(void*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[1.583s]  static void *[01;35m[KreceiverCaller[m[K(void *unused)
+[1.583s]               [01;35m[K^~~~~~~~~~~~~~[m[K
+[1.992s] [100%] [32m[1mLinking CXX executable devel/lib/vehicle_socket/vehicle_sender[0m
+[2.088s] CMakeFiles/vehicle_sender.dir/nodes/vehicle_sender/vehicle_sender.cpp.o: In function `vehicleCmdCallback(autoware_msgs::VehicleCmd_<std::allocator<void> > const&)':
+[2.088s] vehicle_sender.cpp:(.text+0x14d): undefined reference to `VCI_Transmit'
+[2.088s] vehicle_sender.cpp:(.text+0x1b8): undefined reference to `VCI_Transmit'
+[2.088s] vehicle_sender.cpp:(.text+0x227): undefined reference to `VCI_Transmit'
+[2.088s] vehicle_sender.cpp:(.text+0x28f): undefined reference to `VCI_Transmit'
+[2.088s] vehicle_sender.cpp:(.text+0x2df): undefined reference to `VCI_Transmit'
+[2.089s] CMakeFiles/vehicle_sender.dir/nodes/vehicle_sender/vehicle_sender.cpp.o:vehicle_sender.cpp:(.text+0x36f): more undefined references to `VCI_Transmit' follow
+[2.089s] CMakeFiles/vehicle_sender.dir/nodes/vehicle_sender/vehicle_sender.cpp.o: In function `Control::Control()':
+[2.089s] vehicle_sender.cpp:(.text._ZN7ControlC2Ev[_ZN7ControlC5Ev]+0xb3): undefined reference to `VCI_OpenDevice'
+[2.089s] vehicle_sender.cpp:(.text._ZN7ControlC2Ev[_ZN7ControlC5Ev]+0x13e): undefined reference to `VCI_InitCAN'
+[2.089s] vehicle_sender.cpp:(.text._ZN7ControlC2Ev[_ZN7ControlC5Ev]+0x168): undefined reference to `VCI_StartCAN'
+[2.089s] vehicle_sender.cpp:(.text._ZN7ControlC2Ev[_ZN7ControlC5Ev]+0x2a0): undefined reference to `VCI_Transmit'
+[2.089s] vehicle_sender.cpp:(.text._ZN7ControlC2Ev[_ZN7ControlC5Ev]+0x2c0): undefined reference to `VCI_Transmit'
+[2.089s] vehicle_sender.cpp:(.text._ZN7ControlC2Ev[_ZN7ControlC5Ev]+0x2e0): undefined reference to `VCI_Transmit'
+[2.089s] vehicle_sender.cpp:(.text._ZN7ControlC2Ev[_ZN7ControlC5Ev]+0x300): undefined reference to `VCI_Transmit'
+[2.089s] vehicle_sender.cpp:(.text._ZN7ControlC2Ev[_ZN7ControlC5Ev]+0x3ce): undefined reference to `VCI_Transmit'
+[2.089s] CMakeFiles/vehicle_sender.dir/nodes/vehicle_sender/vehicle_sender.cpp.o:vehicle_sender.cpp:(.text._ZN7ControlC2Ev[_ZN7ControlC5Ev]+0x3ea): more undefined references to `VCI_Transmit' follow
+[2.089s] collect2: error: ld returned 1 exit status
+[2.089s] make[2]: *** [devel/lib/vehicle_socket/vehicle_sender] Error 1
+[2.090s] CMakeFiles/vehicle_sender.dir/build.make:112: recipe for target 'devel/lib/vehicle_socket/vehicle_sender' failed
+[2.090s] make[1]: *** [CMakeFiles/vehicle_sender.dir/all] Error 2
+[2.090s] CMakeFiles/Makefile2:190: recipe for target 'CMakeFiles/vehicle_sender.dir/all' failed
+[2.090s] Makefile:140: recipe for target 'all' failed
+[2.090s] make: *** [all] Error 2
+[2.093s] Invoked command in '/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket' returned '2': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket -- -j8 -l8

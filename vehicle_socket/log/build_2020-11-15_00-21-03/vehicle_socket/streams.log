@@ -1,0 +1,146 @@
+[0.026s] Invoking command in '/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket -- -j8 -l8
+[0.122s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.130s] [  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[0.134s] [  0%] Built target tablet_socket_msgs_generate_messages_py
+[0.135s] [  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[0.138s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.138s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.140s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.146s] [  0%] Built target tablet_socket_msgs_generate_messages_eus
+[0.180s] [  0%] Built target roscpp_generate_messages_py
+[0.186s] [  0%] Built target roscpp_generate_messages_lisp
+[0.188s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.195s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.197s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[0.199s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[0.206s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.213s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[0.241s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[0.242s] [  0%] Built target pcl_msgs_generate_messages_py
+[0.255s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[0.263s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[0.263s] [  0%] Built target pcl_msgs_generate_messages_eus
+[0.265s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.266s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.267s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.299s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[0.302s] [  0%] Built target sensor_msgs_generate_messages_eus
+[0.316s] [  0%] Built target std_msgs_generate_messages_eus
+[0.323s] [  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[0.324s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[0.329s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[0.331s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.331s] [  0%] Built target autoware_can_msgs_generate_messages_py
+[0.365s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[0.369s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.374s] [  0%] Built target std_msgs_generate_messages_py
+[0.384s] [  0%] Built target sensor_msgs_generate_messages_py
+[0.386s] [  0%] Built target autoware_can_msgs_generate_messages_eus
+[0.387s] [  0%] Built target autoware_msgs_generate_messages_py
+[0.393s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[0.396s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.417s] [  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[0.434s] [  0%] Built target autoware_can_msgs_generate_messages_lisp
+[0.444s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[0.446s] [  0%] Built target autoware_msgs_generate_messages_eus
+[0.452s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[0.456s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[0.461s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[0.461s] [  0%] Built target autoware_can_msgs_generate_messages_cpp
+[0.468s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.500s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[0.505s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.505s] [  0%] Built target roscpp_generate_messages_eus
+[0.512s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.514s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.516s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[0.517s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.523s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[0.544s] [  0%] Built target roscpp_generate_messages_cpp
+[0.545s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.547s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[0.564s] [35m[1mScanning dependencies of target vehicle_sender[0m
+[0.582s] [ 50%] Built target vehicle_receiver
+[0.589s] [ 75%] [32mBuilding CXX object CMakeFiles/vehicle_sender.dir/nodes/vehicle_sender/vehicle_sender.cpp.o[0m
+[1.881s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:231:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* receiverCaller(void*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[1.881s]  static void *[01;35m[KreceiverCaller[m[K(void *unused)
+[1.881s]               [01;35m[K^~~~~~~~~~~~~~[m[K
+[2.846s] [100%] [32m[1mLinking CXX executable devel/lib/vehicle_socket/vehicle_sender[0m
+[2.979s] [100%] Built target vehicle_sender
+[2.996s] Invoked command in '/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket' returned '0': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket -- -j8 -l8
+[3.143s] Invoking command in '/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket --target tests -- -j8 -l8
+[3.239s] Built target tests
+[3.255s] Invoked command in '/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket' returned '0': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket --target tests -- -j8 -l8
+[3.412s] Invoking command in '/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket --target install -- -j8 -l8
+[3.519s] [  0%] Built target tablet_socket_msgs_generate_messages_py
+[3.520s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[3.520s] [  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[3.533s] [  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[3.535s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[3.538s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[3.543s] [  0%] Built target tablet_socket_msgs_generate_messages_eus
+[3.544s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[3.595s] [  0%] Built target roscpp_generate_messages_py
+[3.595s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[3.601s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[3.605s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[3.612s] [  0%] Built target roscpp_generate_messages_lisp
+[3.620s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[3.620s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[3.640s] [  0%] Built target actionlib_msgs_generate_messages_py
+[3.665s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[3.673s] [  0%] Built target pcl_msgs_generate_messages_py
+[3.682s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[3.688s] [  0%] Built target pcl_msgs_generate_messages_eus
+[3.692s] [  0%] Built target std_msgs_generate_messages_nodejs
+[3.693s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[3.697s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[3.712s] [  0%] Built target std_msgs_generate_messages_lisp
+[3.749s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[3.755s] [  0%] Built target sensor_msgs_generate_messages_eus
+[3.755s] [  0%] Built target autoware_can_msgs_generate_messages_py
+[3.757s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[3.767s] [  0%] Built target geometry_msgs_generate_messages_py
+[3.776s] [  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[3.781s] [  0%] Built target std_msgs_generate_messages_eus
+[3.817s] [  0%] Built target std_msgs_generate_messages_cpp
+[3.818s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[3.825s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[3.829s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[3.839s] [  0%] Built target std_msgs_generate_messages_py
+[3.864s] [  0%] Built target autoware_msgs_generate_messages_py
+[3.875s] [  0%] Built target autoware_can_msgs_generate_messages_eus
+[3.879s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[3.887s] [  0%] Built target sensor_msgs_generate_messages_py
+[3.888s] [  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[3.891s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[3.914s] [  0%] Built target autoware_can_msgs_generate_messages_cpp
+[3.939s] [  0%] Built target autoware_can_msgs_generate_messages_lisp
+[3.943s] [  0%] Built target autoware_msgs_generate_messages_eus
+[3.944s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[3.947s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[3.952s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[3.960s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[3.981s] [  0%] Built target roscpp_generate_messages_nodejs
+[3.981s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[4.002s] [  0%] Built target geometry_msgs_generate_messages_eus
+[4.008s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[4.010s] [  0%] Built target roscpp_generate_messages_eus
+[4.016s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[4.029s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[4.029s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[4.030s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[4.048s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[4.052s] [  0%] Built target roscpp_generate_messages_cpp
+[4.094s] [100%] Built target vehicle_sender
+[4.094s] [100%] Built target vehicle_receiver
+[4.125s] [36mInstall the project...[0m
+[4.137s] -- Install configuration: ""
+[4.137s] -- Up-to-date: /home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/install/vehicle_socket/lib/pkgconfig/vehicle_socket.pc
+[4.137s] -- Up-to-date: /home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/install/vehicle_socket/share/vehicle_socket/cmake/vehicle_socketConfig.cmake
+[4.137s] -- Up-to-date: /home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/install/vehicle_socket/share/vehicle_socket/cmake/vehicle_socketConfig-version.cmake
+[4.137s] -- Up-to-date: /home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/install/vehicle_socket/share/vehicle_socket/package.xml
+[4.138s] -- Installing: /home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/install/vehicle_socket/lib/vehicle_socket/vehicle_sender
+[4.138s] -- Set runtime path of "/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/install/vehicle_socket/lib/vehicle_socket/vehicle_sender" to ""
+[4.138s] -- Up-to-date: /home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/install/vehicle_socket/lib/vehicle_socket/vehicle_receiver
+[4.145s] Invoked command in '/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket' returned '0': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket --target install -- -j8 -l8

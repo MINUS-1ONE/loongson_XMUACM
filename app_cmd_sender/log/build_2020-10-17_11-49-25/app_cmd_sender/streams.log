@@ -1,0 +1,101 @@
+[0.028s] Invoking command in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender -- -j8 -l8
+[0.128s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.142s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.146s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[0.146s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[0.151s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.155s] [  0%] Built target autoware_msgs_generate_messages_py
+[0.159s] [  0%] Built target autoware_can_msgs_generate_messages_py
+[0.165s] [  0%] Built target autoware_can_msgs_generate_messages_eus
+[0.198s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[0.206s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.206s] [  0%] Built target sensor_msgs_generate_messages_eus
+[0.215s] [  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[0.220s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.226s] [  0%] Built target roscpp_generate_messages_lisp
+[0.228s] [  0%] Built target roscpp_generate_messages_cpp
+[0.228s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[0.254s] [  0%] Built target roscpp_generate_messages_py
+[0.268s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.279s] [  0%] Built target sensor_msgs_generate_messages_py
+[0.282s] [  0%] Built target tablet_socket_msgs_generate_messages_py
+[0.282s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[0.283s] [  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[0.287s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[0.298s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[0.326s] [  0%] Built target pcl_msgs_generate_messages_eus
+[0.339s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.342s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.347s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[0.350s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[0.353s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[0.356s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.361s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.381s] [  0%] Built target roscpp_generate_messages_eus
+[0.408s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.408s] [  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[0.408s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.408s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.414s] [  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[0.419s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.433s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.458s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.458s] [  0%] Built target std_msgs_generate_messages_eus
+[0.461s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[0.466s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[0.468s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[0.479s] [  0%] Built target std_msgs_generate_messages_py
+[0.479s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.483s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[0.510s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[0.523s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[0.527s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[0.528s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.529s] [  0%] Built target pcl_msgs_generate_messages_py
+[0.542s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.548s] [  0%] Built target autoware_can_msgs_generate_messages_lisp
+[0.550s] [  0%] Built target autoware_can_msgs_generate_messages_cpp
+[0.564s] [  0%] Built target autoware_msgs_generate_messages_eus
+[0.576s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[0.579s] [  0%] Built target tablet_socket_msgs_generate_messages_eus
+[0.581s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[0.606s] [35m[1mScanning dependencies of target app_cmd_sender[0m
+[0.633s] [ 50%] [32mBuilding CXX object CMakeFiles/app_cmd_sender.dir/nodes/app_cmd_sender.cpp.o[0m
+[1.646s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.646s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:42:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+[1.646s]      [01;31m[Kpub_[m[K = nh_.advertise<geometry_msgs::PoseStamped>( /move_base_simple/goal, 1 );
+[1.646s]      [01;31m[K^~~~[m[K
+[1.647s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:42:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kputw[m[K’
+[1.648s]      [01;36m[Kpub_[m[K = nh_.advertise<geometry_msgs::PoseStamped>( /move_base_simple/goal, 1 );
+[1.648s]      [01;36m[K^~~~[m[K
+[1.648s]      [32m[Kputw[m[K
+[1.648s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:42:12:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope
+[1.648s]      pub_ = [01;31m[Knh_[m[K.advertise<geometry_msgs::PoseStamped>( /move_base_simple/goal, 1 );
+[1.648s]             [01;31m[K^~~[m[K
+[1.648s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:42:12:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knh[m[K’
+[1.648s]      pub_ = [01;36m[Knh_[m[K.advertise<geometry_msgs::PoseStamped>( /move_base_simple/goal, 1 );
+[1.648s]             [01;36m[K^~~[m[K
+[1.649s]             [32m[Knh[m[K
+[1.649s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:42:52:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[1.649s]      pub_ = nh_.advertise<geometry_msgs::PoseStamped[01;31m[K>[m[K( /move_base_simple/goal, 1 );
+[1.649s]                                                     [01;31m[K^[m[K
+[1.649s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:42:55:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K/[m[K’ token
+[1.649s]      pub_ = nh_.advertise<geometry_msgs::PoseStamped>( [01;31m[K/[m[Kmove_base_simple/goal, 1 );
+[1.649s]                                                        [01;31m[K^[m[K
+[1.649s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:42:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_base_simple[m[K’ was not declared in this scope
+[1.649s]      pub_ = nh_.advertise<geometry_msgs::PoseStamped>( /[01;31m[Kmove_base_simple[m[K/goal, 1 );
+[1.649s]                                                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.655s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:42:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal[m[K’ was not declared in this scope
+[1.655s]      pub_ = nh_.advertise<geometry_msgs::PoseStamped>( /move_base_simple/[01;31m[Kgoal[m[K, 1 );
+[1.655s]                                                                          [01;31m[K^~~~[m[K
+[1.656s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:42:73:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kpowl[m[K’
+[1.656s]      pub_ = nh_.advertise<geometry_msgs::PoseStamped>( /move_base_simple/[01;36m[Kgoal[m[K, 1 );
+[1.656s]                                                                          [01;36m[K^~~~[m[K
+[1.656s]                                                                          [32m[Kpowl[m[K
+[1.790s] CMakeFiles/app_cmd_sender.dir/build.make:62: recipe for target 'CMakeFiles/app_cmd_sender.dir/nodes/app_cmd_sender.cpp.o' failed
+[1.790s] make[2]: *** [CMakeFiles/app_cmd_sender.dir/nodes/app_cmd_sender.cpp.o] Error 1
+[1.790s] CMakeFiles/Makefile2:126: recipe for target 'CMakeFiles/app_cmd_sender.dir/all' failed
+[1.790s] make[1]: *** [CMakeFiles/app_cmd_sender.dir/all] Error 2
+[1.791s] Makefile:140: recipe for target 'all' failed
+[1.791s] make: *** [all] Error 2
+[1.794s] Invoked command in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender' returned '2': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender -- -j8 -l8

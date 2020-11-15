@@ -1,0 +1,4 @@
+-- Configuring incomplete, errors occurred!
+See also "/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket/CMakeFiles/CMakeOutput.log".
+See also "/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket/CMakeFiles/CMakeError.log".
+Makefile:1248: recipe for target 'cmake_check_build_system' failed

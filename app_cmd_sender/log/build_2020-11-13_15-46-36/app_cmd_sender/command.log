@@ -1,0 +1,2 @@
+Invoking command in '/home/nuc/Desktop/app_cmd_sender/build/app_cmd_sender': /usr/bin/cmake --build /home/nuc/Desktop/app_cmd_sender/build/app_cmd_sender -- -j8 -l8
+Invoked command in '/home/nuc/Desktop/app_cmd_sender/build/app_cmd_sender' returned '2': /usr/bin/cmake --build /home/nuc/Desktop/app_cmd_sender/build/app_cmd_sender -- -j8 -l8

@@ -1,0 +1,96 @@
+[0.161s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.162s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7eff3e80ba58>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7eff3e80ba58>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7eff3e80be10>)
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.188s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.catkin' and name 'app_cmd_sender'
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'app_cmd_sender' build argument 'cmake_args' from command line to 'None'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'app_cmd_sender' build argument 'cmake_target' from command line to 'None'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'app_cmd_sender' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'app_cmd_sender' build argument 'cmake_clean_cache' from command line to 'False'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'app_cmd_sender' build argument 'cmake_clean_first' from command line to 'False'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'app_cmd_sender' build argument 'cmake_force_configure' from command line to 'False'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'app_cmd_sender' build argument 'ament_cmake_args' from command line to 'None'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'app_cmd_sender' build argument 'catkin_cmake_args' from command line to 'None'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'app_cmd_sender' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.209s] DEBUG:colcon.colcon_core.verb:Building package 'app_cmd_sender' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender', 'merge_install': False, 'path': '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender', 'symlink_install': False, 'test_result_base': None}
+[0.209s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.211s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.212s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender' with build type 'catkin'
+[0.212s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender'
+[0.216s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.216s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.216s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.229s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/melodic'
+[0.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender -- -j8 -l8
+[3.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('app_cmd_sender', 'ros_package_path')
+[3.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/hook/ros_package_path.ps1'
+[3.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender' returned '2': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender -- -j8 -l8
+[3.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/hook/ros_package_path.dsv'
+[3.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/hook/ros_package_path.sh'
+[3.252s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/lib/python2.7/dist-packages'
+[3.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('app_cmd_sender', 'pkg_config_path')
+[3.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/hook/pkg_config_path.ps1'
+[3.253s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/hook/pkg_config_path.dsv'
+[3.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/hook/pkg_config_path.sh'
+[3.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('app_cmd_sender', 'pkg_config_path_multiarch')
+[3.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/hook/pkg_config_path_multiarch.ps1'
+[3.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/hook/pkg_config_path_multiarch.dsv'
+[3.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/hook/pkg_config_path_multiarch.sh'
+[3.260s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(app_cmd_sender)
+[3.263s] Level 1:colcon.colcon_core.environment:checking '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender' for CMake module files
+[3.264s] Level 1:colcon.colcon_core.environment:checking '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender' for CMake config files
+[3.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('app_cmd_sender', 'cmake_prefix_path')
+[3.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/hook/cmake_prefix_path.ps1'
+[3.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/hook/cmake_prefix_path.dsv'
+[3.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/hook/cmake_prefix_path.sh'
+[3.267s] Level 1:colcon.colcon_core.environment:checking '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/lib'
+[3.267s] Level 1:colcon.colcon_core.environment:checking '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/bin'
+[3.267s] Level 1:colcon.colcon_core.environment:checking '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/lib/pkgconfig/app_cmd_sender.pc'
+[3.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('app_cmd_sender', 'pkg_config')
+[3.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/hook/pkg_config.ps1'
+[3.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/hook/pkg_config.dsv'
+[3.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/hook/pkg_config.sh'
+[3.268s] Level 1:colcon.colcon_core.environment:checking '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/lib/python3.6/site-packages'
+[3.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/package.ps1'
+[3.270s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/package.dsv'
+[3.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/package.sh'
+[3.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/package.bash'
+[3.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/package.zsh'
+[3.273s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/colcon-core/packages/app_cmd_sender)
+[3.274s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.275s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.275s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[3.275s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.283s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.283s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.283s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.285s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.285s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/local_setup.ps1'
+[3.286s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/_local_setup_util_ps1.py'
+[3.287s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/setup.ps1'
+[3.295s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/local_setup.sh'
+[3.296s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/_local_setup_util_sh.py'
+[3.296s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/setup.sh'
+[3.306s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/local_setup.bash'
+[3.306s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/setup.bash'
+[3.321s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/local_setup.zsh'
+[3.322s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/setup.zsh'

@@ -1,0 +1,8 @@
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:[m[K In function ‘[01m[Kvoid callbackAppCmd(const ConstPtr&)[m[K’:
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:178:29:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K-Waddress[m[K]
+     if(msg->data.c_str() == [01;35m[K"drive"[m[K)
+                             [01;35m[K^~~~~~~[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:[m[K At global scope:
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:225:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* receiverCaller(void*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ static void *[01;35m[KreceiverCaller[m[K(void *unused)
+              [01;35m[K^~~~~~~~~~~~~~[m[K

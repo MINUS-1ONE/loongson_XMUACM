@@ -1,0 +1,58 @@
+[0.026s] Invoking command in '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner -- -j8 -l8
+[0.102s] [35m[1mScanning dependencies of target app_way_planner[0m
+[0.156s] [ 20%] [32mBuilding CXX object CMakeFiles/app_way_planner.dir/nodes/app_way_planner.cpp.o[0m
+[0.156s] [ 40%] [32mBuilding CXX object CMakeFiles/app_way_planner.dir/nodes/app_way_planner_core.cpp.o[0m
+[2.804s] In file included from [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/include/app_way_planner_core.h:50:0[m[K,
+[2.804s]                  from [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner.cpp:27[m[K:
+[2.804s] [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/include/ROSHelpers.h:[m[K In static member function ‘[01m[Kstatic std::vector<std::__cxx11::basic_string<char> > WayPlannerNS::HMI_MSG::SplitString(const string&, const string&)[m[K’:
+[2.805s] [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/include/ROSHelpers.h:105:43:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[2.805s]      while (iSecondPart > 0 && [01;35m[KiSecondPart < str.size()[m[K)
+[2.805s]                                [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[2.896s] In file included from [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/include/app_way_planner_core.h:50:0[m[K,
+[2.896s]                  from [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:17[m[K:
+[2.896s] [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/include/ROSHelpers.h:[m[K In static member function ‘[01m[Kstatic std::vector<std::__cxx11::basic_string<char> > WayPlannerNS::HMI_MSG::SplitString(const string&, const string&)[m[K’:
+[2.896s] [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/include/ROSHelpers.h:105:43:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[2.896s]      while (iSecondPart > 0 && [01;35m[KiSecondPart < str.size()[m[K)
+[2.896s]                                [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[2.917s] [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:[m[K In constructor ‘[01m[KWayPlannerNS::way_planner_core::way_planner_core()[m[K’:
+[2.917s] [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:104:4:[m[K [01;31m[Kerror: [m[K‘[01m[Km_bhavestart[m[K’ was not declared in this scope
+[2.917s]     [01;31m[Km_bhavestart[m[K = m_bhavegoal = false;
+[2.917s]     [01;31m[K^~~~~~~~~~~~[m[K
+[2.923s] [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:104:4:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kva_start[m[K’
+[2.923s]     [01;36m[Km_bhavestart[m[K = m_bhavegoal = false;
+[2.923s]     [01;36m[K^~~~~~~~~~~~[m[K
+[2.923s]     [32m[Kva_start[m[K
+[2.923s] [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:104:19:[m[K [01;31m[Kerror: [m[K‘[01m[Km_bhavegoal[m[K’ was not declared in this scope
+[2.923s]     m_bhavestart = [01;31m[Km_bhavegoal[m[K = false;
+[2.923s]                    [01;31m[K^~~~~~~~~~~[m[K
+[2.933s] [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:[m[K In member function ‘[01m[Kvoid WayPlannerNS::way_planner_core::callbackGetGoalPose(const PoseStampedConstPtr&)[m[K’:
+[2.933s] [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:157:3:[m[K [01;31m[Kerror: [m[K‘[01m[Km_bhavegoal[m[K’ was not declared in this scope
+[2.933s]    [01;31m[Km_bhavegoal[m[K = true;
+[2.933s]    [01;31m[K^~~~~~~~~~~[m[K
+[2.939s] [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:[m[K In member function ‘[01m[Kvoid WayPlannerNS::way_planner_core::callbackGetStartPose(const PoseWithCovarianceStampedConstPtr&)[m[K’:
+[2.939s] [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:181:3:[m[K [01;31m[Kerror: [m[K‘[01m[Km_bhavestart[m[K’ was not declared in this scope
+[2.939s]    [01;31m[Km_bhavestart[m[K = true;
+[2.939s]    [01;31m[K^~~~~~~~~~~~[m[K
+[2.944s] [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:181:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kva_start[m[K’
+[2.945s]    [01;36m[Km_bhavestart[m[K = true;
+[2.946s]    [01;36m[K^~~~~~~~~~~~[m[K
+[2.946s]    [32m[Kva_start[m[K
+[2.967s] [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:[m[K In member function ‘[01m[Kvoid WayPlannerNS::way_planner_core::PlannerMainLoop()[m[K’:
+[2.967s] [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:728:9:[m[K [01;31m[Kerror: [m[K‘[01m[Km_bhavegoal[m[K’ was not declared in this scope
+[2.967s]      if ([01;31m[Km_bhavegoal[m[K&&m_havestart)
+[2.967s]          [01;31m[K^~~~~~~~~~~[m[K
+[2.972s] [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:728:22:[m[K [01;31m[Kerror: [m[K‘[01m[Km_havestart[m[K’ was not declared in this scope
+[2.972s]      if (m_bhavegoal&&[01;31m[Km_havestart[m[K)
+[2.972s]                       [01;31m[K^~~~~~~~~~~[m[K
+[2.976s] [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:728:22:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kva_start[m[K’
+[2.976s]      if (m_bhavegoal&&[01;36m[Km_havestart[m[K)
+[2.976s]                       [01;36m[K^~~~~~~~~~~[m[K
+[2.976s]                       [32m[Kva_start[m[K
+[4.664s] make[2]: *** [CMakeFiles/app_way_planner.dir/nodes/app_way_planner_core.cpp.o] Error 1
+[4.664s] CMakeFiles/app_way_planner.dir/build.make:86: recipe for target 'CMakeFiles/app_way_planner.dir/nodes/app_way_planner_core.cpp.o' failed
+[4.664s] make[2]: *** Waiting for unfinished jobs....
+[5.337s] make[1]: *** [CMakeFiles/app_way_planner.dir/all] Error 2
+[5.337s] make: *** [all] Error 2
+[5.338s] CMakeFiles/Makefile2:2467: recipe for target 'CMakeFiles/app_way_planner.dir/all' failed
+[5.338s] Makefile:140: recipe for target 'all' failed
+[5.340s] Invoked command in '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner' returned '2': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner -- -j8 -l8

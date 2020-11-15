@@ -1,0 +1,11 @@
+[0.026s] Invoking command in '/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket -- -j8 -l8
+[0.057s] CMake Error at CMakeLists.txt:34:
+[0.057s]   Parse error.  Function missing ending ")".  End of file reached.
+[0.057s] 
+[0.057s] 
+[0.057s] -- Configuring incomplete, errors occurred!
+[0.057s] See also "/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket/CMakeFiles/CMakeOutput.log".
+[0.057s] See also "/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket/CMakeFiles/CMakeError.log".
+[0.057s] Makefile:1248: recipe for target 'cmake_check_build_system' failed
+[0.058s] make: *** [cmake_check_build_system] Error 1
+[0.060s] Invoked command in '/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket' returned '2': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/build/vehicle_socket -- -j8 -l8

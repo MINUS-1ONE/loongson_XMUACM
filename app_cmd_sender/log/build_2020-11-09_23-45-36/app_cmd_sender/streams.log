@@ -1,0 +1,203 @@
+[0.024s] Invoking command in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender -- -j8 -l8
+[0.122s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.122s] [  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[0.122s] [  0%] Built target tablet_socket_msgs_generate_messages_py
+[0.122s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.123s] [  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[0.129s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.129s] [  0%] Built target tablet_socket_msgs_generate_messages_eus
+[0.131s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.176s] [  0%] Built target roscpp_generate_messages_lisp
+[0.176s] [  0%] Built target roscpp_generate_messages_py
+[0.177s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[0.181s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[0.187s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[0.187s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.188s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.194s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.227s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[0.231s] [  0%] Built target pcl_msgs_generate_messages_py
+[0.232s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[0.232s] [  0%] Built target pcl_msgs_generate_messages_eus
+[0.238s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[0.241s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.244s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.253s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.286s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[0.287s] [  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[0.287s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[0.288s] [  0%] Built target sensor_msgs_generate_messages_eus
+[0.294s] [  0%] Built target autoware_can_msgs_generate_messages_py
+[0.305s] [  0%] Built target std_msgs_generate_messages_eus
+[0.306s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[0.312s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.336s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.337s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[0.340s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[0.341s] [  0%] Built target std_msgs_generate_messages_py
+[0.347s] [  0%] Built target autoware_msgs_generate_messages_py
+[0.357s] [  0%] Built target autoware_can_msgs_generate_messages_eus
+[0.359s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.365s] [  0%] Built target sensor_msgs_generate_messages_py
+[0.385s] [  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[0.390s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[0.396s] [  0%] Built target autoware_msgs_generate_messages_eus
+[0.398s] [  0%] Built target autoware_can_msgs_generate_messages_lisp
+[0.404s] [  0%] Built target autoware_can_msgs_generate_messages_cpp
+[0.408s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[0.409s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[0.426s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[0.434s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.441s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[0.452s] [  0%] Built target roscpp_generate_messages_eus
+[0.461s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.461s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.469s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.480s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.486s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[0.488s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.490s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[0.500s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[0.503s] [  0%] Built target roscpp_generate_messages_cpp
+[0.522s] [35m[1mScanning dependencies of target app_cmd_sender[0m
+[0.548s] [ 50%] [32mBuilding CXX object CMakeFiles/app_cmd_sender.dir/nodes/app_cmd_sender.cpp.o[0m
+[2.703s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:[m[K In function ‘[01m[Kvoid centerlineCallback(const MarkerArray&)[m[K’:
+[2.704s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:68:32:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kpt.geometry_msgs::Point_<std::allocator<void> >::x[m[K’ from ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >::_x_type {aka double}[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+[2.704s]          centerpt.push_back({[01;35m[Kpt.x[m[K,pt.y});
+[2.704s]                              [01;35m[K~~~^[m[K
+[2.704s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:68:37:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kpt.geometry_msgs::Point_<std::allocator<void> >::y[m[K’ from ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >::_y_type {aka double}[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+[2.704s]          centerpt.push_back({pt.x,[01;35m[Kpt.y[m[K});
+[2.704s]                                   [01;35m[K~~~^[m[K
+[2.705s] In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+[2.705s]                  from [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:17[m[K:
+[2.705s] [01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::vector<geometry_msgs::Point_<std::allocator<void> >, std::allocator<geometry_msgs::Point_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’ [[01;35m[K-Wformat=[m[K]
+[2.705s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+[2.705s]                                                                                                                                                                                 [01;35m[K^[m[K
+[2.705s] [01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[2.705s]      [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+[2.705s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.705s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[2.706s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[2.706s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.706s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[2.706s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[2.706s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[2.706s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:162:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[2.706s]  #define ROS_WARN(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Warn, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[2.706s]                        [01;36m[K^~~~~~~[m[K
+[2.706s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:70:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_WARN[m[K’
+[2.706s]      [01;36m[KR[m[KOS_WARN("IM centerline, SIZE=%d",  ary.markers[0].points.size());
+[2.706s]      [01;36m[K^[m[K
+[2.706s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:[m[K In function ‘[01m[Kvoid planlineCallback(const MarkerArray&)[m[K’:
+[2.706s] [01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::vector<geometry_msgs::Point_<std::allocator<void> >, std::allocator<geometry_msgs::Point_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’ [[01;35m[K-Wformat=[m[K]
+[2.706s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+[2.707s]                                                                                                                                                                                 [01;35m[K^[m[K
+[2.707s] [01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[2.707s]      [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+[2.707s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.707s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[2.707s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[2.707s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.707s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[2.707s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[2.707s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[2.707s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:162:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[2.707s]  #define ROS_WARN(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Warn, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[2.707s]                        [01;36m[K^~~~~~~[m[K
+[2.707s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:79:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_WARN[m[K’
+[2.707s]          [01;36m[KR[m[KOS_WARN("IM planline, SIZE=%d",  ary.markers[0].points.size());
+[2.707s]          [01;36m[K^[m[K
+[2.707s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:83:57:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kpt.geometry_msgs::Point_<std::allocator<void> >::x[m[K’ from ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >::_x_type {aka double}[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+[2.708s]              plannedline.push_back(std::vector<float>{[01;35m[Kpt.x[m[K,pt.y});
+[2.708s]                                                       [01;35m[K~~~^[m[K
+[2.708s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:83:57:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kpt.geometry_msgs::Point_<std::allocator<void> >::x[m[K’ from ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >::_x_type {aka double}[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+[2.708s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:83:62:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kpt.geometry_msgs::Point_<std::allocator<void> >::y[m[K’ from ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >::_y_type {aka double}[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+[2.708s]              plannedline.push_back(std::vector<float>{pt.x,[01;35m[Kpt.y[m[K});
+[2.708s]                                                            [01;35m[K~~~^[m[K
+[2.708s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:83:62:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kpt.geometry_msgs::Point_<std::allocator<void> >::y[m[K’ from ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >::_y_type {aka double}[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+[2.710s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:[m[K In function ‘[01m[Kvoid currentposeCallback(const PoseStamped&)[m[K’:
+[2.710s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:105:32:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(geometry_msgs::Point_<std::allocator<void> >::_x_type)odm.geometry_msgs::PoseStamped_<std::allocator<void> >::pose.geometry_msgs::Pose_<std::allocator<void> >::position.geometry_msgs::Point_<std::allocator<void> >::x[m[K’ from ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >::_x_type {aka double}[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+[2.710s]      point pt{[01;35m[Kodm.pose.position.x[m[K,odm.pose.position.y};
+[2.710s]               [01;35m[K~~~~~~~~~~~~~~~~~~^[m[K
+[2.710s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:105:52:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(geometry_msgs::Point_<std::allocator<void> >::_y_type)odm.geometry_msgs::PoseStamped_<std::allocator<void> >::pose.geometry_msgs::Pose_<std::allocator<void> >::position.geometry_msgs::Point_<std::allocator<void> >::y[m[K’ from ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >::_y_type {aka double}[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+[2.710s]      point pt{odm.pose.position.x,[01;35m[Kodm.pose.position.y[m[K};
+[2.710s]                                   [01;35m[K~~~~~~~~~~~~~~~~~~^[m[K
+[9.182s] [100%] [32m[1mLinking CXX executable devel/lib/app_cmd_sender/app_cmd_sender[0m
+[9.572s] [100%] Built target app_cmd_sender
+[9.585s] Invoked command in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender' returned '0': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender -- -j8 -l8
+[9.701s] Invoking command in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender --target tests -- -j8 -l8
+[9.786s] Built target tests
+[9.799s] Invoked command in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender' returned '0': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender --target tests -- -j8 -l8
+[9.927s] Invoking command in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender --target install -- -j8 -l8
+[10.011s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[10.011s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[10.011s] [  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[10.011s] [  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[10.012s] [  0%] Built target tablet_socket_msgs_generate_messages_eus
+[10.013s] [  0%] Built target tablet_socket_msgs_generate_messages_py
+[10.017s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[10.017s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[10.052s] [  0%] Built target roscpp_generate_messages_py
+[10.055s] [  0%] Built target roscpp_generate_messages_lisp
+[10.057s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[10.059s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[10.069s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[10.076s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[10.076s] [  0%] Built target actionlib_msgs_generate_messages_py
+[10.078s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[10.100s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[10.100s] [  0%] Built target pcl_msgs_generate_messages_py
+[10.107s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[10.110s] [  0%] Built target pcl_msgs_generate_messages_eus
+[10.118s] [  0%] Built target std_msgs_generate_messages_nodejs
+[10.119s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[10.122s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[10.131s] [  0%] Built target std_msgs_generate_messages_lisp
+[10.139s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[10.142s] [  0%] Built target sensor_msgs_generate_messages_eus
+[10.158s] [  0%] Built target autoware_can_msgs_generate_messages_py
+[10.162s] [  0%] Built target geometry_msgs_generate_messages_py
+[10.163s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[10.170s] [  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[10.172s] [  0%] Built target std_msgs_generate_messages_eus
+[10.178s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[10.183s] [  0%] Built target std_msgs_generate_messages_cpp
+[10.183s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[10.205s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[10.208s] [  0%] Built target std_msgs_generate_messages_py
+[10.211s] [  0%] Built target autoware_msgs_generate_messages_py
+[10.212s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[10.223s] [  0%] Built target autoware_can_msgs_generate_messages_eus
+[10.223s] [  0%] Built target sensor_msgs_generate_messages_py
+[10.229s] [  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[10.235s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[10.252s] [  0%] Built target autoware_msgs_generate_messages_eus
+[10.252s] [  0%] Built target autoware_can_msgs_generate_messages_lisp
+[10.255s] [  0%] Built target autoware_can_msgs_generate_messages_cpp
+[10.266s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[10.270s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[10.272s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[10.276s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[10.277s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[10.297s] [  0%] Built target roscpp_generate_messages_nodejs
+[10.298s] [  0%] Built target geometry_msgs_generate_messages_eus
+[10.308s] [  0%] Built target roscpp_generate_messages_eus
+[10.313s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[10.315s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[10.318s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[10.318s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[10.319s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[10.334s] [  0%] Built target roscpp_generate_messages_cpp
+[10.337s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[10.378s] [100%] Built target app_cmd_sender
+[10.407s] [36mInstall the project...[0m
+[10.419s] -- Install configuration: ""
+[10.419s] -- Up-to-date: /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/lib/pkgconfig/app_cmd_sender.pc
+[10.419s] -- Up-to-date: /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/cmake/app_cmd_senderConfig.cmake
+[10.420s] -- Up-to-date: /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/cmake/app_cmd_senderConfig-version.cmake
+[10.420s] -- Up-to-date: /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/package.xml
+[10.420s] -- Installing: /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/lib/app_cmd_sender/app_cmd_sender
+[10.421s] -- Set runtime path of "/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/lib/app_cmd_sender/app_cmd_sender" to ""
+[10.421s] -- Up-to-date: /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/launch
+[10.421s] -- Up-to-date: /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/share/app_cmd_sender/launch/app_cmd_sender.launch
+[10.424s] Invoked command in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender' returned '0': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender --target install -- -j8 -l8

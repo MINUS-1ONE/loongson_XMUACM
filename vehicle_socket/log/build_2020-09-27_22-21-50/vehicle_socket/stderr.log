@@ -1,0 +1,17 @@
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:56:1:[m[K [01;31m[Kerror: [m[Knew types may not be defined in a return type
+ [01;31m[Kenum[m[K class GEAR
+ [01;31m[K^~~~[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:56:1:[m[K [01;36m[Knote: [m[K(perhaps a semicolon is missing after the definition of ‘[01m[KGEAR[m[K’)
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:64:25:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[Kreset[m[K’
+ void CommandData::reset([01;31m[K)[m[K
+                         [01;31m[K^[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:[m[K In function ‘[01m[Kvoid vehicleCmdCallback(const VehicleCmd&)[m[K’:
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:87:47:[m[K [01;31m[Kerror: [m[K‘[01m[KGRAR[m[K’ has not been declared
+     command_data.gearValue = static_cast<int>([01;31m[KGRAR[m[K::DRIVE);
+                                               [01;31m[K^~~~[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:91:47:[m[K [01;31m[Kerror: [m[K‘[01m[KGRAR[m[K’ has not been declared
+     command_data.gearValue = static_cast<int>([01;31m[KGRAR[m[K::REVERSE);
+                                               [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/vehicle_sender.dir/nodes/vehicle_sender/vehicle_sender.cpp.o] Error 1
+make[1]: *** [CMakeFiles/vehicle_sender.dir/all] Error 2
+make: *** [all] Error 2

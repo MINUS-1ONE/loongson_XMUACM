@@ -1,0 +1,24 @@
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:175:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* receiverCaller(void*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ static void *[01;35m[KreceiverCaller[m[K(void *unused)
+              [01;35m[K^~~~~~~~~~~~~~[m[K
+CMakeFiles/vehicle_sender.dir/nodes/vehicle_sender/vehicle_sender.cpp.o: In function `vehicleCmdCallback(autoware_msgs::VehicleCmd_<std::allocator<void> > const&)':
+vehicle_sender.cpp:(.text+0x14d): undefined reference to `VCI_Transmit'
+vehicle_sender.cpp:(.text+0x1b8): undefined reference to `VCI_Transmit'
+vehicle_sender.cpp:(.text+0x227): undefined reference to `VCI_Transmit'
+vehicle_sender.cpp:(.text+0x28f): undefined reference to `VCI_Transmit'
+vehicle_sender.cpp:(.text+0x2df): undefined reference to `VCI_Transmit'
+CMakeFiles/vehicle_sender.dir/nodes/vehicle_sender/vehicle_sender.cpp.o:vehicle_sender.cpp:(.text+0x36f): more undefined references to `VCI_Transmit' follow
+CMakeFiles/vehicle_sender.dir/nodes/vehicle_sender/vehicle_sender.cpp.o: In function `Control::Control()':
+vehicle_sender.cpp:(.text._ZN7ControlC2Ev[_ZN7ControlC5Ev]+0xb3): undefined reference to `VCI_OpenDevice'
+vehicle_sender.cpp:(.text._ZN7ControlC2Ev[_ZN7ControlC5Ev]+0x13e): undefined reference to `VCI_InitCAN'
+vehicle_sender.cpp:(.text._ZN7ControlC2Ev[_ZN7ControlC5Ev]+0x168): undefined reference to `VCI_StartCAN'
+vehicle_sender.cpp:(.text._ZN7ControlC2Ev[_ZN7ControlC5Ev]+0x2a0): undefined reference to `VCI_Transmit'
+vehicle_sender.cpp:(.text._ZN7ControlC2Ev[_ZN7ControlC5Ev]+0x2c0): undefined reference to `VCI_Transmit'
+vehicle_sender.cpp:(.text._ZN7ControlC2Ev[_ZN7ControlC5Ev]+0x2e0): undefined reference to `VCI_Transmit'
+vehicle_sender.cpp:(.text._ZN7ControlC2Ev[_ZN7ControlC5Ev]+0x300): undefined reference to `VCI_Transmit'
+vehicle_sender.cpp:(.text._ZN7ControlC2Ev[_ZN7ControlC5Ev]+0x3ce): undefined reference to `VCI_Transmit'
+CMakeFiles/vehicle_sender.dir/nodes/vehicle_sender/vehicle_sender.cpp.o:vehicle_sender.cpp:(.text._ZN7ControlC2Ev[_ZN7ControlC5Ev]+0x3ea): more undefined references to `VCI_Transmit' follow
+collect2: error: ld returned 1 exit status
+make[2]: *** [devel/lib/vehicle_socket/vehicle_sender] Error 1
+make[1]: *** [CMakeFiles/vehicle_sender.dir/all] Error 2
+make: *** [all] Error 2

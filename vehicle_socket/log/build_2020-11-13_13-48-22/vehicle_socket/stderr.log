@@ -1,0 +1,3 @@
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:230:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* receiverCaller(void*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ static void *[01;35m[KreceiverCaller[m[K(void *unused)
+              [01;35m[K^~~~~~~~~~~~~~[m[K

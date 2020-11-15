@@ -1,0 +1,17 @@
+In file included from [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:33:0[m[K:
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/control.h:[m[K In destructor ‘[01m[KControl::~Control()[m[K’:
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/control.h:88:45:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kunsigned int VCI_CloseDevice(unsigned int, unsigned int)[m[K’
+         VCI_CloseDevice(gDevType, gDevIdx, 0[01;31m[K)[m[K;
+                                             [01;31m[K^[m[K
+In file included from [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/control.h:1:0[m[K,
+                 from [01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:33[m[K:
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/controlcan.h:118:16:[m[K [01;36m[Knote: [m[Kdeclared here
+ EXTERN_C DWORD [01;36m[KVCI_CloseDevice[m[K(DWORD DeviceType,DWORD DeviceInd);
+                [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:[m[K At global scope:
+[01m[K/home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/nodes/vehicle_sender/vehicle_sender.cpp:230:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* receiverCaller(void*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ static void *[01;35m[KreceiverCaller[m[K(void *unused)
+              [01;35m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/vehicle_sender.dir/nodes/vehicle_sender/vehicle_sender.cpp.o] Error 1
+make[1]: *** [CMakeFiles/vehicle_sender.dir/all] Error 2
+make: *** [all] Error 2

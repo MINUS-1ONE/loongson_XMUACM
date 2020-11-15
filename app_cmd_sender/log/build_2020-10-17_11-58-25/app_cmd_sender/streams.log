@@ -1,0 +1,181 @@
+[0.030s] Invoking command in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender -- -j8 -l8
+[0.130s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.131s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.132s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.138s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.138s] [  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[0.138s] [  0%] Built target tablet_socket_msgs_generate_messages_eus
+[0.141s] [  0%] Built target tablet_socket_msgs_generate_messages_py
+[0.149s] [  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[0.187s] [  0%] Built target roscpp_generate_messages_lisp
+[0.187s] [  0%] Built target roscpp_generate_messages_py
+[0.187s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[0.196s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[0.197s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.200s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.210s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.211s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[0.243s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[0.248s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[0.263s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.265s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.270s] [  0%] Built target pcl_msgs_generate_messages_eus
+[0.278s] [  0%] Built target pcl_msgs_generate_messages_py
+[0.286s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[0.291s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[0.306s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.308s] [  0%] Built target sensor_msgs_generate_messages_eus
+[0.326s] [  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[0.326s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[0.339s] [  0%] Built target autoware_can_msgs_generate_messages_py
+[0.339s] [  0%] Built target std_msgs_generate_messages_eus
+[0.344s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.357s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[0.361s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[0.368s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.388s] [  0%] Built target autoware_msgs_generate_messages_py
+[0.392s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[0.392s] [  0%] Built target std_msgs_generate_messages_py
+[0.396s] [  0%] Built target autoware_can_msgs_generate_messages_eus
+[0.417s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.425s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[0.428s] [  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[0.441s] [  0%] Built target sensor_msgs_generate_messages_py
+[0.447s] [  0%] Built target autoware_can_msgs_generate_messages_lisp
+[0.452s] [  0%] Built target autoware_can_msgs_generate_messages_cpp
+[0.460s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[0.463s] [  0%] Built target autoware_msgs_generate_messages_eus
+[0.476s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[0.480s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[0.486s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.490s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[0.511s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.513s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.527s] [  0%] Built target roscpp_generate_messages_eus
+[0.536s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.548s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[0.551s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.552s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.559s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[0.563s] [  0%] Built target roscpp_generate_messages_cpp
+[0.565s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[0.581s] [35m[1mScanning dependencies of target app_cmd_sender[0m
+[0.607s] [ 50%] [32mBuilding CXX object CMakeFiles/app_cmd_sender.dir/nodes/app_cmd_sender.cpp.o[0m
+[1.663s] In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+[1.663s]                  from [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:17[m[K:
+[1.663s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.663s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:56:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+[1.663s]      ROS_INFO("Setting pose: %.3f %.3f %.3f [frame=%s]", [01;31m[Kx[m[K, y, theta, fixed_frame.c_str());
+[1.664s]                                                          [01;31m[K^[m[K
+[1.664s] [01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[1.664s]  ocation__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+[1.664s]                                                                                                               [01;36m[K^~~~~~~~~~~[m[K
+[1.664s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[1.664s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[1.664s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.664s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[1.664s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[1.665s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[1.665s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[1.665s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[1.665s]                        [01;36m[K^~~~~~~[m[K
+[1.665s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:56:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[1.665s]      [01;36m[KR[m[KOS_INFO("Setting pose: %.3f %.3f %.3f [frame=%s]", x, y, theta, fixed_frame.c_str());
+[1.665s]      [01;36m[K^[m[K
+[1.665s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:56:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope
+[1.665s]      ROS_INFO("Setting pose: %.3f %.3f %.3f [frame=%s]", x, [01;31m[Ky[m[K, theta, fixed_frame.c_str());
+[1.665s]                                                             [01;31m[K^[m[K
+[1.666s] [01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[1.666s]  ocation__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+[1.666s]                                                                                                               [01;36m[K^~~~~~~~~~~[m[K
+[1.666s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[1.666s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[1.666s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.666s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[1.666s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[1.666s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[1.666s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[1.666s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[1.666s]                        [01;36m[K^~~~~~~[m[K
+[1.666s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:56:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[1.666s]      [01;36m[KR[m[KOS_INFO("Setting pose: %.3f %.3f %.3f [frame=%s]", x, y, theta, fixed_frame.c_str());
+[1.666s]      [01;36m[K^[m[K
+[1.666s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:56:60:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kyn[m[K’
+[1.667s]      ROS_INFO("Setting pose: %.3f %.3f %.3f [frame=%s]", x, [01;36m[Ky[m[K, theta, fixed_frame.c_str());
+[1.667s]                                                             [01;36m[K^[m[K
+[1.667s] [01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[1.667s]  ocation__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+[1.667s]                                                                                                               [01;36m[K^~~~~~~~~~~[m[K
+[1.667s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[1.667s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[1.667s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.667s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[1.667s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[1.667s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[1.667s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[1.667s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[1.667s]                        [01;36m[K^~~~~~~[m[K
+[1.667s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:56:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[1.667s]      [01;36m[KR[m[KOS_INFO("Setting pose: %.3f %.3f %.3f [frame=%s]", x, y, theta, fixed_frame.c_str());
+[1.667s]      [01;36m[K^[m[K
+[1.668s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:56:63:[m[K [01;31m[Kerror: [m[K‘[01m[Ktheta[m[K’ was not declared in this scope
+[1.668s]      ROS_INFO("Setting pose: %.3f %.3f %.3f [frame=%s]", x, y, [01;31m[Kt[m[Kheta, fixed_frame.c_str());
+[1.668s]                                                                [01;31m[K^[m[K
+[1.668s] [01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[1.668s]  ocation__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+[1.668s]                                                                                                               [01;36m[K^~~~~~~~~~~[m[K
+[1.668s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[1.668s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[1.668s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.668s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[1.668s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[1.668s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[1.668s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[1.668s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[1.669s]                        [01;36m[K^~~~~~~[m[K
+[1.669s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:56:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[1.669s]      [01;36m[KR[m[KOS_INFO("Setting pose: %.3f %.3f %.3f [frame=%s]", x, y, theta, fixed_frame.c_str());
+[1.669s]      [01;36m[K^[m[K
+[1.669s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:56:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kfixed_frame[m[K’ was not declared in this scope
+[1.669s]      ROS_INFO("Setting pose: %.3f %.3f %.3f [frame=%s]", x, y, theta, [01;31m[Kf[m[Kixed_frame.c_str());
+[1.669s]                                                                       [01;31m[K^[m[K
+[1.669s] [01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[1.669s]  ocation__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+[1.669s]                                                                                                               [01;36m[K^~~~~~~~~~~[m[K
+[1.669s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[1.669s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[1.669s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.669s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[1.669s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[1.669s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[1.669s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[1.670s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[1.670s]                        [01;36m[K^~~~~~~[m[K
+[1.670s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:56:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[1.670s]      [01;36m[KR[m[KOS_INFO("Setting pose: %.3f %.3f %.3f [frame=%s]", x, y, theta, fixed_frame.c_str());
+[1.670s]      [01;36m[K^[m[K
+[1.670s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:56:70:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktimer_create[m[K’
+[1.670s]      ROS_INFO("Setting pose: %.3f %.3f %.3f [frame=%s]", x, y, theta, [01;36m[Kf[m[Kixed_frame.c_str());
+[1.670s]                                                                       [01;36m[K^[m[K
+[1.670s] [01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[1.670s]  ocation__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+[1.670s]                                                                                                               [01;36m[K^~~~~~~~~~~[m[K
+[1.670s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[1.670s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[1.670s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.670s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[1.670s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[1.670s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[1.671s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[1.671s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[1.671s]                        [01;36m[K^~~~~~~[m[K
+[1.671s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:56:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[1.671s]      [01;36m[KR[m[KOS_INFO("Setting pose: %.3f %.3f %.3f [frame=%s]", x, y, theta, fixed_frame.c_str());
+[1.671s]      [01;36m[K^[m[K
+[1.812s] CMakeFiles/app_cmd_sender.dir/build.make:62: recipe for target 'CMakeFiles/app_cmd_sender.dir/nodes/app_cmd_sender.cpp.o' failed
+[1.812s] make[2]: *** [CMakeFiles/app_cmd_sender.dir/nodes/app_cmd_sender.cpp.o] Error 1
+[1.813s] make[1]: *** [CMakeFiles/app_cmd_sender.dir/all] Error 2
+[1.813s] CMakeFiles/Makefile2:126: recipe for target 'CMakeFiles/app_cmd_sender.dir/all' failed
+[1.813s] Makefile:140: recipe for target 'all' failed
+[1.813s] make: *** [all] Error 2
+[1.816s] Invoked command in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender' returned '2': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender -- -j8 -l8

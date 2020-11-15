@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nuc/autoware.ai/src/autoware/utilities/vehicle_socket/install/vehicle_socket/setup.sh

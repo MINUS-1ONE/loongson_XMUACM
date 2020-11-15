@@ -1,0 +1,56 @@
+[35m[1mScanning dependencies of target app_way_planner[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/app_way_planner.dir/nodes/app_way_planner.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/app_way_planner.dir/nodes/app_way_planner_core.cpp.o[0m
+In file included from [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/include/app_way_planner_core.h:50:0[m[K,
+                 from [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner.cpp:27[m[K:
+[01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/include/ROSHelpers.h:[m[K In static member function ‘[01m[Kstatic std::vector<std::__cxx11::basic_string<char> > WayPlannerNS::HMI_MSG::SplitString(const string&, const string&)[m[K’:
+[01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/include/ROSHelpers.h:105:43:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     while (iSecondPart > 0 && [01;35m[KiSecondPart < str.size()[m[K)
+                               [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/include/app_way_planner_core.h:50:0[m[K,
+                 from [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:17[m[K:
+[01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/include/ROSHelpers.h:[m[K In static member function ‘[01m[Kstatic std::vector<std::__cxx11::basic_string<char> > WayPlannerNS::HMI_MSG::SplitString(const string&, const string&)[m[K’:
+[01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/include/ROSHelpers.h:105:43:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     while (iSecondPart > 0 && [01;35m[KiSecondPart < str.size()[m[K)
+                               [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:[m[K In constructor ‘[01m[KWayPlannerNS::way_planner_core::way_planner_core()[m[K’:
+[01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:104:4:[m[K [01;31m[Kerror: [m[K‘[01m[Km_bhavestart[m[K’ was not declared in this scope
+    [01;31m[Km_bhavestart[m[K = m_bhavegoal = false;
+    [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:104:4:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kva_start[m[K’
+    [01;36m[Km_bhavestart[m[K = m_bhavegoal = false;
+    [01;36m[K^~~~~~~~~~~~[m[K
+    [32m[Kva_start[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:104:19:[m[K [01;31m[Kerror: [m[K‘[01m[Km_bhavegoal[m[K’ was not declared in this scope
+    m_bhavestart = [01;31m[Km_bhavegoal[m[K = false;
+                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:[m[K In member function ‘[01m[Kvoid WayPlannerNS::way_planner_core::callbackGetGoalPose(const PoseStampedConstPtr&)[m[K’:
+[01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:157:3:[m[K [01;31m[Kerror: [m[K‘[01m[Km_bhavegoal[m[K’ was not declared in this scope
+   [01;31m[Km_bhavegoal[m[K = true;
+   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:[m[K In member function ‘[01m[Kvoid WayPlannerNS::way_planner_core::callbackGetStartPose(const PoseWithCovarianceStampedConstPtr&)[m[K’:
+[01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:181:3:[m[K [01;31m[Kerror: [m[K‘[01m[Km_bhavestart[m[K’ was not declared in this scope
+   [01;31m[Km_bhavestart[m[K = true;
+   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:181:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kva_start[m[K’
+   [01;36m[Km_bhavestart[m[K = true;
+   [01;36m[K^~~~~~~~~~~~[m[K
+   [32m[Kva_start[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:[m[K In member function ‘[01m[Kvoid WayPlannerNS::way_planner_core::PlannerMainLoop()[m[K’:
+[01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:728:9:[m[K [01;31m[Kerror: [m[K‘[01m[Km_bhavegoal[m[K’ was not declared in this scope
+     if ([01;31m[Km_bhavegoal[m[K&&m_havestart)
+         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:728:22:[m[K [01;31m[Kerror: [m[K‘[01m[Km_havestart[m[K’ was not declared in this scope
+     if (m_bhavegoal&&[01;31m[Km_havestart[m[K)
+                      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:728:22:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kva_start[m[K’
+     if (m_bhavegoal&&[01;36m[Km_havestart[m[K)
+                      [01;36m[K^~~~~~~~~~~[m[K
+                      [32m[Kva_start[m[K
+make[2]: *** [CMakeFiles/app_way_planner.dir/nodes/app_way_planner_core.cpp.o] Error 1
+CMakeFiles/app_way_planner.dir/build.make:86: recipe for target 'CMakeFiles/app_way_planner.dir/nodes/app_way_planner_core.cpp.o' failed
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/app_way_planner.dir/all] Error 2
+make: *** [all] Error 2
+CMakeFiles/Makefile2:2467: recipe for target 'CMakeFiles/app_way_planner.dir/all' failed
+Makefile:140: recipe for target 'all' failed

@@ -1,0 +1,3 @@
+CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make:70: recipe for target 'CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend' failed
+CMakeFiles/Makefile2:2211: recipe for target 'CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all' failed
+Makefile:140: recipe for target 'all' failed

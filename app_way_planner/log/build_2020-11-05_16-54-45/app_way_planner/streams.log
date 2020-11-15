@@ -1,0 +1,32 @@
+[0.026s] Invoking command in '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner -- -j8 -l8
+[0.101s] [35m[1mScanning dependencies of target app_way_planner[0m
+[0.158s] [ 20%] [32mBuilding CXX object CMakeFiles/app_way_planner.dir/nodes/app_way_planner_core.cpp.o[0m
+[2.682s] In file included from [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/include/app_way_planner_core.h:50:0[m[K,
+[2.683s]                  from [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:17[m[K:
+[2.683s] [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/include/ROSHelpers.h:[m[K In static member function ‘[01m[Kstatic std::vector<std::__cxx11::basic_string<char> > WayPlannerNS::HMI_MSG::SplitString(const string&, const string&)[m[K’:
+[2.683s] [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/include/ROSHelpers.h:105:43:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[2.683s]      while (iSecondPart > 0 && [01;35m[KiSecondPart < str.size()[m[K)
+[2.683s]                                [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[2.731s] [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:[m[K In member function ‘[01m[Kvoid WayPlannerNS::way_planner_core::PlannerMainLoop()[m[K’:
+[2.731s] [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:656:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KbMakeNewPlan[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.731s]     bool [01;35m[KbMakeNewPlan[m[K = false;
+[2.731s]          [01;35m[K^~~~~~~~~~~~[m[K
+[10.917s] [ 40%] [32m[1mLinking CXX executable devel/lib/app_way_planner/app_way_planner[0m
+[11.457s] [100%] Built target app_way_planner
+[11.472s] Invoked command in '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner' returned '0': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner -- -j8 -l8
+[11.701s] Invoking command in '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner --target tests -- -j8 -l8
+[11.803s] Built target tests
+[11.820s] Invoked command in '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner' returned '0': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner --target tests -- -j8 -l8
+[12.082s] Invoking command in '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner --target install -- -j8 -l8
+[12.196s] [100%] Built target app_way_planner
+[12.233s] [36mInstall the project...[0m
+[12.247s] -- Install configuration: ""
+[12.248s] -- Up-to-date: /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/lib/pkgconfig/app_way_planner.pc
+[12.248s] -- Up-to-date: /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/cmake/app_way_plannerConfig.cmake
+[12.248s] -- Up-to-date: /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/cmake/app_way_plannerConfig-version.cmake
+[12.248s] -- Up-to-date: /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/package.xml
+[12.248s] -- Installing: /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/lib/app_way_planner/app_way_planner
+[12.259s] -- Set runtime path of "/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/lib/app_way_planner/app_way_planner" to ""
+[12.259s] -- Up-to-date: /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/launch
+[12.259s] -- Up-to-date: /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/launch/app_way_planner.launch
+[12.263s] Invoked command in '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner' returned '0': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner --target install -- -j8 -l8

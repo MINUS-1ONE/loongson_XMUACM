@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/install/app_cmd_sender/setup.sh

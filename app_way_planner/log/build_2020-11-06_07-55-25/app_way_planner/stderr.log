@@ -1,0 +1,16 @@
+In file included from [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/include/app_way_planner_core.h:50:0[m[K,
+                 from [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:17[m[K:
+[01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/include/ROSHelpers.h:[m[K In static member function ‘[01m[Kstatic std::vector<std::__cxx11::basic_string<char> > WayPlannerNS::HMI_MSG::SplitString(const string&, const string&)[m[K’:
+[01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/include/ROSHelpers.h:105:43:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     while (iSecondPart > 0 && [01;35m[KiSecondPart < str.size()[m[K)
+                               [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/include/app_way_planner_core.h:50:0[m[K,
+                 from [01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner.cpp:27[m[K:
+[01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/include/ROSHelpers.h:[m[K In static member function ‘[01m[Kstatic std::vector<std::__cxx11::basic_string<char> > WayPlannerNS::HMI_MSG::SplitString(const string&, const string&)[m[K’:
+[01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/include/ROSHelpers.h:105:43:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     while (iSecondPart > 0 && [01;35m[KiSecondPart < str.size()[m[K)
+                               [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:[m[K In member function ‘[01m[Kvoid WayPlannerNS::way_planner_core::PlannerMainLoop()[m[K’:
+[01m[K/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/nodes/app_way_planner_core.cpp:663:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KbMakeNewPlan[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+    bool [01;35m[KbMakeNewPlan[m[K = false;
+         [01;35m[K^~~~~~~~~~~~[m[K

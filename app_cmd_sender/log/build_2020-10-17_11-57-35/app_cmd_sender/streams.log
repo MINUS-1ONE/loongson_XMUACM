@@ -1,0 +1,209 @@
+[0.026s] Invoking command in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender -- -j8 -l8
+[0.067s] -- CUDA compilation status: .
+[0.068s] -- Using CATKIN_DEVEL_PREFIX: /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender/devel
+[0.068s] -- Using CMAKE_PREFIX_PATH: /home/nuc/autoware.ai/install/ymc;/home/nuc/autoware.ai/install/xsens_driver;/home/nuc/autoware.ai/install/wf_simulator;/home/nuc/autoware.ai/install/lattice_planner;/home/nuc/autoware.ai/install/waypoint_planner;/home/nuc/autoware.ai/install/waypoint_maker;/home/nuc/autoware.ai/install/way_planner;/home/nuc/autoware.ai/install/vlg22c_cam;/home/nuc/autoware.ai/install/vision_ssd_detect;/home/nuc/autoware.ai/install/vision_segment_enet_detect;/home/nuc/autoware.ai/install/vision_lane_detect;/home/nuc/autoware.ai/install/vision_darknet_detect;/home/nuc/autoware.ai/install/vision_beyond_track;/home/nuc/autoware.ai/install/vel_pose_diff_checker;/home/nuc/autoware.ai/install/vehicle_socket;/home/nuc/autoware.ai/install/vehicle_sim_model;/home/nuc/autoware.ai/install/vehicle_model;/home/nuc/autoware.ai/install/vehicle_gazebo_simulation_launcher;/home/nuc/autoware.ai/install/vehicle_gazebo_simulation_interface;/home/nuc/autoware.ai/install/vehicle_engage_panel;/home/nuc/autoware.ai/install/vehicle_description;/home/nuc/autoware.ai/install/trafficlight_recognizer;/home/nuc/autoware.ai/install/op_utilities;/home/nuc/autoware.ai/install/op_simulation_package;/home/nuc/autoware.ai/install/op_local_planner;/home/nuc/autoware.ai/install/op_global_planner;/home/nuc/autoware.ai/install/lidar_kf_contour_track;/home/nuc/autoware.ai/install/op_ros_helpers;/home/nuc/autoware.ai/install/ff_waypoint_follower;/home/nuc/autoware.ai/install/dp_planner;/home/nuc/autoware.ai/install/op_simu;/home/nuc/autoware.ai/install/op_planner;/home/nuc/autoware.ai/install/op_utility;/home/nuc/autoware.ai/install/lidar_euclidean_cluster_detect;/home/nuc/autoware.ai/install/vector_map_server;/home/nuc/autoware.ai/install/road_occupancy_processor;/home/nuc/autoware.ai/install/costmap_generator;/home/nuc/autoware.ai/install/object_map;/home/nuc/autoware.ai/install/naive_motion_predict;/home/nuc/autoware.ai/install/lanelet_aisan_converter;/home/nuc/autoware.ai/install/map_file;/home/nuc/autoware.ai/install/libvectormap;/home/nuc/autoware.ai/install/lane_planner;/home/nuc/autoware.ai/install/imm_ukf_pda_track;/home/nuc/autoware.ai/install/decision_maker;/home/nuc/autoware.ai/install/vector_map;/home/nuc/autoware.ai/install/vector_map_msgs;/home/nuc/autoware.ai/install/vectacam;/home/nuc/autoware.ai/install/udon_socket;/home/nuc/autoware.ai/install/twist_generator;/home/nuc/autoware.ai/install/twist_gate;/home/nuc/autoware.ai/install/twist_filter;/home/nuc/autoware.ai/install/twist2odom;/home/nuc/autoware.ai/install/tablet_socket;/home/nuc/autoware.ai/install/runtime_manager;/home/nuc/autoware.ai/install/mqtt_socket;/home/nuc/autoware.ai/install/tablet_socket_msgs;/home/nuc/autoware.ai/install/system_monitor;/home/nuc/autoware.ai/install/state_machine_lib;/home/nuc/autoware.ai/install/sound_player;/home/nuc/autoware.ai/install/sick_lms5xx;/home/nuc/autoware.ai/install/sick_ldmrs_tools;/home/nuc/autoware.ai/install/sick_ldmrs_driver;/home/nuc/autoware.ai/install/sick_ldmrs_msgs;/home/nuc/autoware.ai/install/sick_ldmrs_description;/home/nuc/autoware.ai/install/sensor_imu;/home/nuc/autoware.ai/install/points2image;/home/nuc/autoware.ai/install/rosinterface;/home/nuc/autoware.ai/install/rosbag_controller;/home/nuc/autoware.ai/install/pure_pursuit;/home/nuc/autoware.ai/install/points_preprocessor;/home/nuc/autoware.ai/install/mpc_follower;/home/nuc/autoware.ai/install/lidar_localizer;/home/nuc/autoware.ai/install/emergency_handler;/home/nuc/autoware.ai/install/autoware_health_checker;/home/nuc/autoware.ai/install/as;/home/nuc/autoware.ai/install/ros_observer;/home/nuc/autoware.ai/install/roi_object_filter;/home/nuc/autoware.ai/install/range_vision_fusion;/home/nuc/autoware.ai/install/pos_db;/home/nuc/autoware.ai/install/points_downsampler;/home/nuc/autoware.ai/install/pixel_cloud_fusion;/home/nuc/autoware.ai/install/pcl_omp_registration;/home/nuc/autoware.ai/install/pc2_downsampler;/home/nuc/autoware.ai/install/oculus_socket;/home/nuc/autoware.ai/install/obj_db;/home/nuc/autoware.ai/install/nmea_navsat;/home/nuc/autoware.ai/install/ndt_tku;/home/nuc/autoware.ai/install/ndt_cpu;/home/nuc/autoware.ai/install/multi_lidar_calibrator;/home/nuc/autoware.ai/install/microstrain_driver;/home/nuc/autoware.ai/install/memsic_imu;/home/nuc/autoware.ai/install/marker_downsampler;/home/nuc/autoware.ai/install/map_tools;/home/nuc/autoware.ai/install/map_tf_generator;/home/nuc/autoware.ai/install/log_tools;/home/nuc/autoware.ai/install/lidar_shape_estimation;/home/nuc/autoware.ai/install/lidar_point_pillars;/home/nuc/autoware.ai/install/lidar_naive_l_shape_detect;/home/nuc/autoware.ai/install/lidar_fake_perception;/home/nuc/autoware.ai/install/lidar_apollo_cnn_seg_detect;/home/nuc/autoware.ai/install/libwaypoint_follower;/home/nuc/autoware.ai/install/lgsvl_simulator_bridge;/home/nuc/autoware.ai/install/lanelet2_extension;/home/nuc/autoware.ai/install/kvaser;/home/nuc/autoware.ai/install/kitti_launch;/home/nuc/autoware.ai/install/kitti_player;/home/nuc/autoware.ai/install/kitti_box_publisher;/home/nuc/autoware.ai/install/javad_navsat_driver;/home/nuc/autoware.ai/install/integrated_viewer;/home/nuc/autoware.ai/install/image_processor;/home/nuc/autoware.ai/install/hokuyo;/home/nuc/autoware.ai/install/graph_tools;/home/nuc/autoware.ai/install/gnss_localizer;/home/nuc/autoware.ai/install/gnss;/home/nuc/autoware.ai/install/glviewer;/home/nuc/autoware.ai/install/gazebo_world_description;/home/nuc/autoware.ai/install/gazebo_imu_description;/home/nuc/autoware.ai/install/gazebo_camera_description;/home/nuc/autoware.ai/install/garmin;/home/nuc/autoware.ai/install/freespace_planner;/home/nuc/autoware.ai/install/fastvirtualscan;/home/nuc/autoware.ai/install/ekf_localizer;/home/nuc/autoware.ai/install/ds4_msgs;/home/nuc/autoware.ai/install/ds4_driver;/home/nuc/autoware.ai/install/detected_objects_visualizer;/home/nuc/autoware.ai/install/decision_maker_panel;/home/nuc/autoware.ai/install/data_preprocessor;/home/nuc/autoware.ai/install/custom_msgs;/home/nuc/autoware.ai/install/carla_autoware_bridge;/home/nuc/autoware.ai/install/calibration_publisher;/home/nuc/autoware.ai/install/autoware_system_msgs;/home/nuc/autoware.ai/install/autoware_rviz_plugins;/home/nuc/autoware.ai/install/autoware_quickstart_examples;/home/nuc/autoware.ai/install/autoware_pointgrey_drivers;/home/nuc/autoware.ai/install/autoware_driveworks_interface;/home/nuc/autoware.ai/install/autoware_connector;/home/nuc/autoware.ai/install/autoware_camera_lidar_calibrator;/home/nuc/autoware.ai/install/astar_search;/home/nuc/autoware.ai/install/amathutils_lib;/home/nuc/autoware.ai/install/autoware_msgs;/home/nuc/autoware.ai/install/autoware_map_msgs;/home/nuc/autoware.ai/install/autoware_launcher_rviz;/home/nuc/autoware.ai/install/autoware_launcher;/home/nuc/autoware.ai/install/autoware_lanelet2_msgs;/home/nuc/autoware.ai/install/autoware_external_msgs;/home/nuc/autoware.ai/install/autoware_driveworks_gmsl_interface;/home/nuc/autoware.ai/install/autoware_config_msgs;/home/nuc/autoware.ai/install/autoware_can_msgs;/home/nuc/autoware.ai/install/autoware_build_flags;/home/nuc/autoware.ai/install/autoware_bag_tools;/home/nuc/autoware.ai/install/adi_driver;/opt/ros/melodic
+[0.074s] -- This workspace overlays: /home/nuc/autoware.ai/install/ymc;/home/nuc/autoware.ai/install/xsens_driver;/home/nuc/autoware.ai/install/wf_simulator;/home/nuc/autoware.ai/install/lattice_planner;/home/nuc/autoware.ai/install/waypoint_planner;/home/nuc/autoware.ai/install/waypoint_maker;/home/nuc/autoware.ai/install/way_planner;/home/nuc/autoware.ai/install/vlg22c_cam;/home/nuc/autoware.ai/install/vision_ssd_detect;/home/nuc/autoware.ai/install/vision_segment_enet_detect;/home/nuc/autoware.ai/install/vision_lane_detect;/home/nuc/autoware.ai/install/vision_darknet_detect;/home/nuc/autoware.ai/install/vision_beyond_track;/home/nuc/autoware.ai/install/vel_pose_diff_checker;/home/nuc/autoware.ai/install/vehicle_socket;/home/nuc/autoware.ai/install/vehicle_sim_model;/home/nuc/autoware.ai/install/vehicle_model;/home/nuc/autoware.ai/install/vehicle_gazebo_simulation_launcher;/home/nuc/autoware.ai/install/vehicle_gazebo_simulation_interface;/home/nuc/autoware.ai/install/vehicle_engage_panel;/home/nuc/autoware.ai/install/vehicle_description;/home/nuc/autoware.ai/install/trafficlight_recognizer;/home/nuc/autoware.ai/install/op_utilities;/home/nuc/autoware.ai/install/op_simulation_package;/home/nuc/autoware.ai/install/op_local_planner;/home/nuc/autoware.ai/install/op_global_planner;/home/nuc/autoware.ai/install/lidar_kf_contour_track;/home/nuc/autoware.ai/install/op_ros_helpers;/home/nuc/autoware.ai/install/ff_waypoint_follower;/home/nuc/autoware.ai/install/dp_planner;/home/nuc/autoware.ai/install/op_simu;/home/nuc/autoware.ai/install/op_planner;/home/nuc/autoware.ai/install/op_utility;/home/nuc/autoware.ai/install/lidar_euclidean_cluster_detect;/home/nuc/autoware.ai/install/vector_map_server;/home/nuc/autoware.ai/install/road_occupancy_processor;/home/nuc/autoware.ai/install/costmap_generator;/home/nuc/autoware.ai/install/object_map;/home/nuc/autoware.ai/install/naive_motion_predict;/home/nuc/autoware.ai/install/lanelet_aisan_converter;/home/nuc/autoware.ai/install/map_file;/home/nuc/autoware.ai/install/libvectormap;/home/nuc/autoware.ai/install/lane_planner;/home/nuc/autoware.ai/install/imm_ukf_pda_track;/home/nuc/autoware.ai/install/decision_maker;/home/nuc/autoware.ai/install/vector_map;/home/nuc/autoware.ai/install/vector_map_msgs;/home/nuc/autoware.ai/install/vectacam;/home/nuc/autoware.ai/install/udon_socket;/home/nuc/autoware.ai/install/twist_generator;/home/nuc/autoware.ai/install/twist_gate;/home/nuc/autoware.ai/install/twist_filter;/home/nuc/autoware.ai/install/twist2odom;/home/nuc/autoware.ai/install/tablet_socket;/home/nuc/autoware.ai/install/runtime_manager;/home/nuc/autoware.ai/install/mqtt_socket;/home/nuc/autoware.ai/install/tablet_socket_msgs;/home/nuc/autoware.ai/install/system_monitor;/home/nuc/autoware.ai/install/state_machine_lib;/home/nuc/autoware.ai/install/sound_player;/home/nuc/autoware.ai/install/sick_lms5xx;/home/nuc/autoware.ai/install/sick_ldmrs_tools;/home/nuc/autoware.ai/install/sick_ldmrs_driver;/home/nuc/autoware.ai/install/sick_ldmrs_msgs;/home/nuc/autoware.ai/install/sick_ldmrs_description;/home/nuc/autoware.ai/install/sensor_imu;/home/nuc/autoware.ai/install/points2image;/home/nuc/autoware.ai/install/rosinterface;/home/nuc/autoware.ai/install/rosbag_controller;/home/nuc/autoware.ai/install/pure_pursuit;/home/nuc/autoware.ai/install/points_preprocessor;/home/nuc/autoware.ai/install/mpc_follower;/home/nuc/autoware.ai/install/lidar_localizer;/home/nuc/autoware.ai/install/emergency_handler;/home/nuc/autoware.ai/install/autoware_health_checker;/home/nuc/autoware.ai/install/as;/home/nuc/autoware.ai/install/ros_observer;/home/nuc/autoware.ai/install/roi_object_filter;/home/nuc/autoware.ai/install/range_vision_fusion;/home/nuc/autoware.ai/install/pos_db;/home/nuc/autoware.ai/install/points_downsampler;/home/nuc/autoware.ai/install/pixel_cloud_fusion;/home/nuc/autoware.ai/install/pcl_omp_registration;/home/nuc/autoware.ai/install/pc2_downsampler;/home/nuc/autoware.ai/install/oculus_socket;/home/nuc/autoware.ai/install/obj_db;/home/nuc/autoware.ai/install/nmea_navsat;/home/nuc/autoware.ai/install/ndt_tku;/home/nuc/autoware.ai/install/ndt_cpu;/home/nuc/autoware.ai/install/multi_lidar_calibrator;/home/nuc/autoware.ai/install/microstrain_driver;/home/nuc/autoware.ai/install/memsic_imu;/home/nuc/autoware.ai/install/marker_downsampler;/home/nuc/autoware.ai/install/map_tools;/home/nuc/autoware.ai/install/map_tf_generator;/home/nuc/autoware.ai/install/log_tools;/home/nuc/autoware.ai/install/lidar_shape_estimation;/home/nuc/autoware.ai/install/lidar_point_pillars;/home/nuc/autoware.ai/install/lidar_naive_l_shape_detect;/home/nuc/autoware.ai/install/lidar_fake_perception;/home/nuc/autoware.ai/install/lidar_apollo_cnn_seg_detect;/home/nuc/autoware.ai/install/libwaypoint_follower;/home/nuc/autoware.ai/install/lgsvl_simulator_bridge;/home/nuc/autoware.ai/install/lanelet2_extension;/home/nuc/autoware.ai/install/kvaser;/home/nuc/autoware.ai/install/kitti_launch;/home/nuc/autoware.ai/install/kitti_player;/home/nuc/autoware.ai/install/kitti_box_publisher;/home/nuc/autoware.ai/install/javad_navsat_driver;/home/nuc/autoware.ai/install/integrated_viewer;/home/nuc/autoware.ai/install/image_processor;/home/nuc/autoware.ai/install/hokuyo;/home/nuc/autoware.ai/install/graph_tools;/home/nuc/autoware.ai/install/gnss_localizer;/home/nuc/autoware.ai/install/gnss;/home/nuc/autoware.ai/install/glviewer;/home/nuc/autoware.ai/install/gazebo_world_description;/home/nuc/autoware.ai/install/gazebo_imu_description;/home/nuc/autoware.ai/install/gazebo_camera_description;/home/nuc/autoware.ai/install/garmin;/home/nuc/autoware.ai/install/freespace_planner;/home/nuc/autoware.ai/install/fastvirtualscan;/home/nuc/autoware.ai/install/ekf_localizer;/home/nuc/autoware.ai/install/ds4_msgs;/home/nuc/autoware.ai/install/ds4_driver;/home/nuc/autoware.ai/install/detected_objects_visualizer;/home/nuc/autoware.ai/install/decision_maker_panel;/home/nuc/autoware.ai/install/data_preprocessor;/home/nuc/autoware.ai/install/custom_msgs;/home/nuc/autoware.ai/install/carla_autoware_bridge;/home/nuc/autoware.ai/install/calibration_publisher;/home/nuc/autoware.ai/install/autoware_system_msgs;/home/nuc/autoware.ai/install/autoware_rviz_plugins;/home/nuc/autoware.ai/install/autoware_quickstart_examples;/home/nuc/autoware.ai/install/autoware_pointgrey_drivers;/home/nuc/autoware.ai/install/autoware_driveworks_interface;/home/nuc/autoware.ai/install/autoware_connector;/home/nuc/autoware.ai/install/autoware_camera_lidar_calibrator;/home/nuc/autoware.ai/install/astar_search;/home/nuc/autoware.ai/install/amathutils_lib;/home/nuc/autoware.ai/install/autoware_msgs;/home/nuc/autoware.ai/install/autoware_map_msgs;/home/nuc/autoware.ai/install/autoware_launcher_rviz;/home/nuc/autoware.ai/install/autoware_launcher;/home/nuc/autoware.ai/install/autoware_lanelet2_msgs;/home/nuc/autoware.ai/install/autoware_external_msgs;/home/nuc/autoware.ai/install/autoware_driveworks_gmsl_interface;/home/nuc/autoware.ai/install/autoware_config_msgs;/home/nuc/autoware.ai/install/autoware_can_msgs;/home/nuc/autoware.ai/install/autoware_build_flags;/home/nuc/autoware.ai/install/autoware_bag_tools;/home/nuc/autoware.ai/install/adi_driver;/opt/ros/melodic
+[0.094s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[0.094s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[0.094s] -- Using Debian Python package layout
+[0.095s] -- Using empy: /usr/bin/empy
+[0.240s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.240s] -- Call enable_testing()
+[0.240s] -- Using CATKIN_TEST_RESULTS_DIR: /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender/test_results
+[0.279s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.280s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.297s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[0.303s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[0.351s] -- catkin 0.7.26
+[0.351s] -- BUILD_SHARED_LIBS is on
+[0.572s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[0.932s] -- Configuring done
+[0.974s] -- Generating done
+[0.988s] -- Build files have been written to: /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender
+[1.068s] [  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[1.069s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[1.075s] [  0%] Built target tablet_socket_msgs_generate_messages_eus
+[1.083s] [  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[1.087s] [  0%] Built target tablet_socket_msgs_generate_messages_py
+[1.094s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[1.111s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[1.111s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[1.127s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[1.131s] [  0%] Built target roscpp_generate_messages_py
+[1.175s] [  0%] Built target roscpp_generate_messages_lisp
+[1.175s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[1.175s] [  0%] Built target pcl_msgs_generate_messages_py
+[1.177s] [  0%] Built target actionlib_msgs_generate_messages_py
+[1.179s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[1.185s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[1.198s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[1.206s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[1.229s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[1.233s] [  0%] Built target pcl_msgs_generate_messages_eus
+[1.237s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[1.254s] [  0%] Built target std_msgs_generate_messages_nodejs
+[1.255s] [  0%] Built target std_msgs_generate_messages_lisp
+[1.266s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[1.270s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[1.299s] [  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[1.315s] [  0%] Built target sensor_msgs_generate_messages_eus
+[1.326s] [  0%] Built target autoware_can_msgs_generate_messages_py
+[1.345s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[1.348s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[1.351s] [  0%] Built target geometry_msgs_generate_messages_py
+[1.352s] [  0%] Built target std_msgs_generate_messages_eus
+[1.357s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[1.380s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.388s] [  0%] Built target std_msgs_generate_messages_py
+[1.401s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[1.411s] [  0%] Built target autoware_msgs_generate_messages_py
+[1.411s] [  0%] Built target autoware_can_msgs_generate_messages_eus
+[1.428s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[1.436s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[1.455s] [  0%] Built target sensor_msgs_generate_messages_py
+[1.461s] [  0%] Built target autoware_can_msgs_generate_messages_lisp
+[1.475s] [  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[1.484s] [  0%] Built target autoware_can_msgs_generate_messages_cpp
+[1.494s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[1.496s] [  0%] Built target autoware_msgs_generate_messages_eus
+[1.501s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[1.505s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[1.522s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[1.543s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[1.546s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[1.552s] [  0%] Built target geometry_msgs_generate_messages_eus
+[1.558s] [  0%] Built target roscpp_generate_messages_nodejs
+[1.558s] [  0%] Built target roscpp_generate_messages_eus
+[1.558s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[1.572s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[1.590s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[1.592s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[1.593s] [  0%] Built target roscpp_generate_messages_cpp
+[1.598s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[1.617s] [35m[1mScanning dependencies of target app_cmd_sender[0m
+[1.640s] [ 50%] [32mBuilding CXX object CMakeFiles/app_cmd_sender.dir/nodes/app_cmd_sender.cpp.o[0m
+[2.684s] In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+[2.685s]                  from [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:17[m[K:
+[2.685s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.685s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:56:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+[2.685s]      ROS_INFO("Setting pose: %.3f %.3f %.3f [frame=%s]", [01;31m[Kx[m[K, y, theta, fixed_frame.c_str());
+[2.686s]                                                          [01;31m[K^[m[K
+[2.686s] [01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[2.686s]  ocation__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+[2.686s]                                                                                                               [01;36m[K^~~~~~~~~~~[m[K
+[2.686s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[2.686s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[2.686s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.687s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[2.687s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[2.687s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[2.687s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[2.687s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[2.687s]                        [01;36m[K^~~~~~~[m[K
+[2.687s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:56:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[2.687s]      [01;36m[KR[m[KOS_INFO("Setting pose: %.3f %.3f %.3f [frame=%s]", x, y, theta, fixed_frame.c_str());
+[2.687s]      [01;36m[K^[m[K
+[2.687s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:56:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope
+[2.687s]      ROS_INFO("Setting pose: %.3f %.3f %.3f [frame=%s]", x, [01;31m[Ky[m[K, theta, fixed_frame.c_str());
+[2.688s]                                                             [01;31m[K^[m[K
+[2.688s] [01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[2.688s]  ocation__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+[2.688s]                                                                                                               [01;36m[K^~~~~~~~~~~[m[K
+[2.688s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[2.688s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[2.688s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.688s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[2.688s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[2.688s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[2.688s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[2.689s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[2.689s]                        [01;36m[K^~~~~~~[m[K
+[2.689s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:56:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[2.689s]      [01;36m[KR[m[KOS_INFO("Setting pose: %.3f %.3f %.3f [frame=%s]", x, y, theta, fixed_frame.c_str());
+[2.689s]      [01;36m[K^[m[K
+[2.689s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:56:60:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kyn[m[K’
+[2.689s]      ROS_INFO("Setting pose: %.3f %.3f %.3f [frame=%s]", x, [01;36m[Ky[m[K, theta, fixed_frame.c_str());
+[2.689s]                                                             [01;36m[K^[m[K
+[2.689s] [01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[2.689s]  ocation__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+[2.689s]                                                                                                               [01;36m[K^~~~~~~~~~~[m[K
+[2.690s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[2.690s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[2.690s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.690s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[2.690s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[2.690s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[2.691s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[2.691s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[2.691s]                        [01;36m[K^~~~~~~[m[K
+[2.691s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:56:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[2.691s]      [01;36m[KR[m[KOS_INFO("Setting pose: %.3f %.3f %.3f [frame=%s]", x, y, theta, fixed_frame.c_str());
+[2.691s]      [01;36m[K^[m[K
+[2.691s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:56:63:[m[K [01;31m[Kerror: [m[K‘[01m[Ktheta[m[K’ was not declared in this scope
+[2.691s]      ROS_INFO("Setting pose: %.3f %.3f %.3f [frame=%s]", x, y, [01;31m[Kt[m[Kheta, fixed_frame.c_str());
+[2.692s]                                                                [01;31m[K^[m[K
+[2.692s] [01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[2.692s]  ocation__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+[2.692s]                                                                                                               [01;36m[K^~~~~~~~~~~[m[K
+[2.692s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[2.692s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[2.692s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.692s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[2.692s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[2.692s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[2.693s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[2.693s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[2.693s]                        [01;36m[K^~~~~~~[m[K
+[2.693s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:56:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[2.693s]      [01;36m[KR[m[KOS_INFO("Setting pose: %.3f %.3f %.3f [frame=%s]", x, y, theta, fixed_frame.c_str());
+[2.693s]      [01;36m[K^[m[K
+[2.694s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:56:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kfixed_frame[m[K’ was not declared in this scope
+[2.694s]      ROS_INFO("Setting pose: %.3f %.3f %.3f [frame=%s]", x, y, theta, [01;31m[Kf[m[Kixed_frame.c_str());
+[2.694s]                                                                       [01;31m[K^[m[K
+[2.694s] [01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[2.694s]  ocation__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+[2.694s]                                                                                                               [01;36m[K^~~~~~~~~~~[m[K
+[2.694s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[2.694s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[2.695s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.695s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[2.695s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[2.695s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[2.695s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[2.695s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[2.695s]                        [01;36m[K^~~~~~~[m[K
+[2.696s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:56:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[2.696s]      [01;36m[KR[m[KOS_INFO("Setting pose: %.3f %.3f %.3f [frame=%s]", x, y, theta, fixed_frame.c_str());
+[2.696s]      [01;36m[K^[m[K
+[2.696s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:56:70:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktimer_create[m[K’
+[2.696s]      ROS_INFO("Setting pose: %.3f %.3f %.3f [frame=%s]", x, y, theta, [01;36m[Kf[m[Kixed_frame.c_str());
+[2.696s]                                                                       [01;36m[K^[m[K
+[2.696s] [01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[2.696s]  ocation__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+[2.697s]                                                                                                               [01;36m[K^~~~~~~~~~~[m[K
+[2.697s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[2.697s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[2.697s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.697s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[2.697s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[2.697s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[2.697s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[2.698s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[2.698s]                        [01;36m[K^~~~~~~[m[K
+[2.698s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:56:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[2.698s]      [01;36m[KR[m[KOS_INFO("Setting pose: %.3f %.3f %.3f [frame=%s]", x, y, theta, fixed_frame.c_str());
+[2.698s]      [01;36m[K^[m[K
+[2.698s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:62:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+[2.698s]          [01;31m[Kpub_[m[K.publish(pose);
+[2.698s]          [01;31m[K^~~~[m[K
+[2.698s] [01m[K/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/nodes/app_cmd_sender.cpp:62:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kputw[m[K’
+[2.699s]          [01;36m[Kpub_[m[K.publish(pose);
+[2.699s]          [01;36m[K^~~~[m[K
+[2.699s]          [32m[Kputw[m[K
+[2.821s] CMakeFiles/app_cmd_sender.dir/build.make:62: recipe for target 'CMakeFiles/app_cmd_sender.dir/nodes/app_cmd_sender.cpp.o' failed
+[2.821s] make[2]: *** [CMakeFiles/app_cmd_sender.dir/nodes/app_cmd_sender.cpp.o] Error 1
+[2.821s] CMakeFiles/Makefile2:126: recipe for target 'CMakeFiles/app_cmd_sender.dir/all' failed
+[2.821s] make[1]: *** [CMakeFiles/app_cmd_sender.dir/all] Error 2
+[2.822s] Makefile:140: recipe for target 'all' failed
+[2.822s] make: *** [all] Error 2
+[2.825s] Invoked command in '/home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender' returned '2': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/utilities/app_cmd_sender/build/app_cmd_sender -- -j8 -l8

@@ -1,0 +1,18 @@
+[0.027s] Invoking command in '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner -- -j8 -l8
+[0.137s] [100%] Built target app_way_planner
+[0.155s] Invoked command in '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner' returned '0': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner -- -j8 -l8
+[0.380s] Invoking command in '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner --target tests -- -j8 -l8
+[0.484s] Built target tests
+[0.508s] Invoked command in '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner' returned '0': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner --target tests -- -j8 -l8
+[0.755s] Invoking command in '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner --target install -- -j8 -l8
+[0.851s] [100%] Built target app_way_planner
+[0.885s] [36mInstall the project...[0m
+[0.896s] -- Install configuration: ""
+[0.897s] -- Up-to-date: /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/lib/pkgconfig/app_way_planner.pc
+[0.897s] -- Up-to-date: /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/cmake/app_way_plannerConfig.cmake
+[0.897s] -- Up-to-date: /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/cmake/app_way_plannerConfig-version.cmake
+[0.897s] -- Up-to-date: /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/package.xml
+[0.897s] -- Up-to-date: /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/lib/app_way_planner/app_way_planner
+[0.898s] -- Up-to-date: /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/launch
+[0.898s] -- Up-to-date: /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/install/app_way_planner/share/app_way_planner/launch/app_way_planner.launch
+[0.902s] Invoked command in '/home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner' returned '0': /usr/bin/cmake --build /home/nuc/autoware.ai/src/autoware/core_planning/app_way_planner/build/app_way_planner --target install -- -j8 -l8
